@@ -1,0 +1,50 @@
+10-Apr-2024 21:09:33.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.4.1
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+10-Apr-2024 21:09:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2
+10-Apr-2024 21:09:33.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+10-Apr-2024 21:09:33.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+10-Apr-2024 21:09:33.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/conf/logging.properties
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+10-Apr-2024 21:09:33.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/temp
+10-Apr-2024 21:09:33.303 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tolymbeknurtai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Apr-2024 21:09:33.462 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2024 21:09:33.476 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [270] milliseconds
+10-Apr-2024 21:09:33.495 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2024 21:09:33.495 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+10-Apr-2024 21:09:33.511 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war]
+10-Apr-2024 21:09:33.654 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war] has finished in [143] ms
+10-Apr-2024 21:09:33.655 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+10-Apr-2024 21:09:33.859 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2024 21:09:33.861 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [206] ms
+10-Apr-2024 21:09:33.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs]
+10-Apr-2024 21:09:33.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs] has finished in [9] ms
+10-Apr-2024 21:09:33.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager]
+10-Apr-2024 21:09:33.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager] has finished in [13] ms
+10-Apr-2024 21:09:33.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples]
+10-Apr-2024 21:09:33.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples] has finished in [87] ms
+10-Apr-2024 21:09:33.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT]
+10-Apr-2024 21:09:33.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT] has finished in [6] ms
+10-Apr-2024 21:09:33.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager]
+10-Apr-2024 21:09:33.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager] has finished in [8] ms
+10-Apr-2024 21:09:33.988 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2024 21:09:33.993 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [515] milliseconds
+10-Apr-2024 21:09:39.451 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+10-Apr-2024 21:09:39.465 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+10-Apr-2024 21:09:39.634 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Apr-2024 21:09:39.636 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [170] ms

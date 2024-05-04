@@ -1,0 +1,35 @@
+09-Apr-2024 07:02:47.593 INFO [http-nio-8080-exec-18] server.connection.DBConnection.getConnection Connection to DB is established.
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.database.QuestionsDAO.getQuestions Got questions from DB.
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 1 2
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 3 4/1 4
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 1 2/100 200
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet null
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2555/2000
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2/3
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2 2
+09-Apr-2024 07:02:47.599 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+09-Apr-2024 07:02:47.600 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet Sent questions.
+09-Apr-2024 09:28:32.452 INFO [http-nio-8080-exec-18] server.connection.DBConnection.getConnection Connection to DB is established.
+09-Apr-2024 09:28:32.457 INFO [http-nio-8080-exec-18] server.database.QuestionsDAO.getQuestions Got questions from DB.
+09-Apr-2024 09:28:32.457 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 1 2
+09-Apr-2024 09:28:32.457 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 3 4/1 4
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 1 2/100 200
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet null
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2555/2000
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2/3
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 2 2
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+09-Apr-2024 09:28:32.458 INFO [http-nio-8080-exec-18] server.servlets.QuestionsServlet.doGet Sent questions.
+09-Apr-2024 10:50:15.024 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Apr-2024 10:50:15.034 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Apr-2024 10:50:15.081 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Apr-2024 10:50:15.139 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Apr-2024 10:50:15.167 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

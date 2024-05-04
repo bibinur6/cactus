@@ -1,0 +1,211 @@
+24-Mar-2024 04:07:30.778 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 04:07:30.783 WARNING [http-nio-8080-exec-20] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Mar-2024 04:07:30.792 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 04:07:30.875 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 04:07:30.876 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [84] ms
+24-Mar-2024 18:02:15.932 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 18:02:15.945 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 18:02:16.044 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 18:02:16.046 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [102] ms
+24-Mar-2024 18:48:00.751 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 18:48:00.765 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 18:48:00.846 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 18:48:00.847 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [82] ms
+24-Mar-2024 18:48:59.740 INFO [http-nio-8080-exec-45] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:06.006 INFO [http-nio-8080-exec-46] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:06.009 INFO [http-nio-8080-exec-46] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+24-Mar-2024 18:49:06.013 INFO [http-nio-8080-exec-46] server.servlets.QuestionsServlet.doGet Sent questions.
+24-Mar-2024 18:49:21.629 INFO [http-nio-8080-exec-37] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:21.633 INFO [http-nio-8080-exec-37] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:49:21.640 INFO [http-nio-8080-exec-37] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:49:21.644 INFO [http-nio-8080-exec-37] server.runner.Runner.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs (No such file or directory)
+24-Mar-2024 18:49:21.645 INFO [http-nio-8080-exec-37] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:49:21.647 INFO [http-nio-8080-exec-37] server.runner.Runner.compile rustc
+24-Mar-2024 18:49:21.647 INFO [http-nio-8080-exec-37] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:21.647 INFO [http-nio-8080-exec-37] server.runner.Runner.compile -o
+24-Mar-2024 18:49:21.647 INFO [http-nio-8080-exec-37] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example
+24-Mar-2024 18:49:21.648 INFO [http-nio-8080-exec-37] server.runner.Runner.compile Error compilingCannot run program "rustc": /Users/tolymbeknurtai/Desktop/projects/servlets/src/main/java/server/tester/files/log.txt (No such file or directory)
+24-Mar-2024 18:49:21.649 INFO [http-nio-8080-exec-37] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:21.649 INFO [http-nio-8080-exec-37] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:49:21.649 INFO [http-nio-8080-exec-37] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:49:30.562 INFO [http-nio-8080-exec-40] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:30.565 INFO [http-nio-8080-exec-40] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:49:30.566 INFO [http-nio-8080-exec-40] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:49:30.566 INFO [http-nio-8080-exec-40] server.runner.Runner.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs (No such file or directory)
+24-Mar-2024 18:49:30.567 INFO [http-nio-8080-exec-40] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:49:30.567 INFO [http-nio-8080-exec-40] server.runner.Runner.compile rustc
+24-Mar-2024 18:49:30.567 INFO [http-nio-8080-exec-40] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:30.567 INFO [http-nio-8080-exec-40] server.runner.Runner.compile -o
+24-Mar-2024 18:49:30.567 INFO [http-nio-8080-exec-40] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example
+24-Mar-2024 18:49:30.568 INFO [http-nio-8080-exec-40] server.runner.Runner.compile Error compilingCannot run program "rustc": /Users/tolymbeknurtai/Desktop/projects/servlets/src/main/java/server/tester/files/log.txt (No such file or directory)
+24-Mar-2024 18:49:30.568 INFO [http-nio-8080-exec-40] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:30.568 INFO [http-nio-8080-exec-40] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:49:30.568 INFO [http-nio-8080-exec-40] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:49:42.788 INFO [http-nio-8080-exec-39] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:42.794 INFO [http-nio-8080-exec-39] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:49:42.794 INFO [http-nio-8080-exec-39] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:49:42.795 INFO [http-nio-8080-exec-39] server.runner.Runner.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs (No such file or directory)
+24-Mar-2024 18:49:42.795 INFO [http-nio-8080-exec-39] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:49:42.795 INFO [http-nio-8080-exec-39] server.runner.Runner.compile rustc
+24-Mar-2024 18:49:42.796 INFO [http-nio-8080-exec-39] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:42.796 INFO [http-nio-8080-exec-39] server.runner.Runner.compile -o
+24-Mar-2024 18:49:42.796 INFO [http-nio-8080-exec-39] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example
+24-Mar-2024 18:49:42.797 INFO [http-nio-8080-exec-39] server.runner.Runner.compile Error compilingCannot run program "rustc": /Users/tolymbeknurtai/Desktop/projects/servlets/src/main/java/server/tester/files/log.txt (No such file or directory)
+24-Mar-2024 18:49:42.797 INFO [http-nio-8080-exec-39] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:42.797 INFO [http-nio-8080-exec-39] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:49:42.797 INFO [http-nio-8080-exec-39] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:49:47.693 INFO [http-nio-8080-exec-43] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:49:47.697 INFO [http-nio-8080-exec-43] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:49:47.697 INFO [http-nio-8080-exec-43] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:49:47.698 INFO [http-nio-8080-exec-43] server.runner.Runner.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs (No such file or directory)
+24-Mar-2024 18:49:47.698 INFO [http-nio-8080-exec-43] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:49:47.698 INFO [http-nio-8080-exec-43] server.runner.Runner.compile rustc
+24-Mar-2024 18:49:47.698 INFO [http-nio-8080-exec-43] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:47.699 INFO [http-nio-8080-exec-43] server.runner.Runner.compile -o
+24-Mar-2024 18:49:47.699 INFO [http-nio-8080-exec-43] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example
+24-Mar-2024 18:49:47.700 INFO [http-nio-8080-exec-43] server.runner.Runner.compile Error compilingCannot run program "rustc": /Users/tolymbeknurtai/Desktop/projects/servlets/src/main/java/server/tester/files/log.txt (No such file or directory)
+24-Mar-2024 18:49:47.700 INFO [http-nio-8080-exec-43] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:49:47.700 INFO [http-nio-8080-exec-43] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:49:47.700 INFO [http-nio-8080-exec-43] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:53:03.176 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 18:53:03.181 WARNING [http-nio-8080-exec-46] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Mar-2024 18:53:03.190 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 18:53:03.265 INFO [http-nio-8080-exec-46] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 18:53:03.266 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [76] ms
+24-Mar-2024 18:53:12.258 INFO [http-nio-8080-exec-50] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:53:12.291 INFO [http-nio-8080-exec-50] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:53:12.292 INFO [http-nio-8080-exec-50] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:53:12.292 INFO [http-nio-8080-exec-50] server.runner.Runner.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs (No such file or directory)
+24-Mar-2024 18:53:12.293 INFO [http-nio-8080-exec-50] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:53:12.293 INFO [http-nio-8080-exec-50] server.runner.Runner.compile rustc
+24-Mar-2024 18:53:12.293 INFO [http-nio-8080-exec-50] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:53:12.293 INFO [http-nio-8080-exec-50] server.runner.Runner.compile -o
+24-Mar-2024 18:53:12.293 INFO [http-nio-8080-exec-50] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example
+24-Mar-2024 18:53:12.646 INFO [http-nio-8080-exec-50] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/tester/files/Example.rs
+24-Mar-2024 18:53:12.648 INFO [http-nio-8080-exec-50] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:53:12.648 INFO [http-nio-8080-exec-50] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:53:57.097 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 18:53:57.118 WARNING [http-nio-8080-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Mar-2024 18:53:57.127 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 18:53:57.227 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 18:53:57.229 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [101] ms
+24-Mar-2024 18:53:59.274 INFO [http-nio-8080-exec-49] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:53:59.287 INFO [http-nio-8080-exec-49] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:53:59.288 INFO [http-nio-8080-exec-49] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:53:59.288 INFO [http-nio-8080-exec-49] server.runner.Runner.writeFile Wrote code to the file in runner
+24-Mar-2024 18:53:59.289 INFO [http-nio-8080-exec-49] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:53:59.289 INFO [http-nio-8080-exec-49] server.runner.Runner.compile rustc
+24-Mar-2024 18:53:59.289 INFO [http-nio-8080-exec-49] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example.rs
+24-Mar-2024 18:53:59.289 INFO [http-nio-8080-exec-49] server.runner.Runner.compile -o
+24-Mar-2024 18:53:59.289 INFO [http-nio-8080-exec-49] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 18:53:59.724 INFO [http-nio-8080-exec-49] server.servlets.RunTestServlet.doPost tests are not passed
+24-Mar-2024 18:53:59.725 INFO [http-nio-8080-exec-49] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 18:54:23.018 INFO [http-nio-8080-exec-48] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 18:54:23.022 INFO [http-nio-8080-exec-48] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 18:54:23.023 INFO [http-nio-8080-exec-48] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 18:54:23.024 INFO [http-nio-8080-exec-48] server.runner.Runner.writeFile Wrote code to the file in runner
+24-Mar-2024 18:54:23.024 INFO [http-nio-8080-exec-48] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 18:54:23.024 INFO [http-nio-8080-exec-48] server.runner.Runner.compile rustc
+24-Mar-2024 18:54:23.024 INFO [http-nio-8080-exec-48] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example.rs
+24-Mar-2024 18:54:23.025 INFO [http-nio-8080-exec-48] server.runner.Runner.compile -o
+24-Mar-2024 18:54:23.025 INFO [http-nio-8080-exec-48] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 18:54:28.291 INFO [http-nio-8080-exec-48] server.runner.Runner.compile compiled in runner
+24-Mar-2024 18:54:28.291 INFO [http-nio-8080-exec-48] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 18:54:28.294 INFO [http-nio-8080-exec-48] server.runner.Tester.test process started in tester
+24-Mar-2024 18:54:28.296 INFO [Thread-2] server.runner.Tester.lambda$writeInput$0 1/1
+24-Mar-2024 18:54:28.296 INFO [Thread-2] server.runner.Tester.lambda$writeInput$0 1
+24-Mar-2024 18:54:28.296 INFO [Thread-2] server.runner.Tester.lambda$writeInput$0 1
+24-Mar-2024 18:54:28.296 INFO [Thread-2] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 18:54:30.978 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 1
+24-Mar-2024 18:54:30.978 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.978 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput read the output
+24-Mar-2024 18:54:30.978 INFO [http-nio-8080-exec-48] server.runner.Tester.test 1
+24-Mar-2024 18:54:30.978 INFO [http-nio-8080-exec-48] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 18:54:30.983 INFO [http-nio-8080-exec-48] server.runner.Tester.test process started in tester
+24-Mar-2024 18:54:30.984 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 2/2
+24-Mar-2024 18:54:30.984 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 18:54:30.984 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 18:54:30.984 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 18:54:30.986 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput read the output
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.test 2/2
+24-Mar-2024 18:54:30.987 INFO [http-nio-8080-exec-48] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 18:54:30.991 INFO [http-nio-8080-exec-48] server.runner.Tester.test process started in tester
+24-Mar-2024 18:54:30.992 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 4/2
+24-Mar-2024 18:54:30.992 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 4
+24-Mar-2024 18:54:30.992 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 18:54:30.993 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.995 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.996 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput 2
+24-Mar-2024 18:54:30.996 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput this is line
+24-Mar-2024 18:54:30.996 INFO [http-nio-8080-exec-48] server.runner.Tester.readOutput read the output
+24-Mar-2024 18:54:30.996 INFO [http-nio-8080-exec-48] server.runner.Tester.test 2/2/2/2
+24-Mar-2024 18:54:30.997 INFO [http-nio-8080-exec-48] server.servlets.RunTestServlet.doPost tests are passed
+24-Mar-2024 18:54:30.997 INFO [http-nio-8080-exec-48] server.servlets.RunTestServlet.doPost sent the results from runservlet
+24-Mar-2024 19:00:35.083 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 19:00:35.089 WARNING [http-nio-8080-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Mar-2024 19:00:35.096 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 19:00:35.169 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 19:00:35.170 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [73] ms
+24-Mar-2024 19:00:56.295 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+24-Mar-2024 19:00:56.307 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+24-Mar-2024 19:00:56.366 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2024 19:00:56.366 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [60] ms
+24-Mar-2024 19:01:18.297 INFO [http-nio-8080-exec-62] server.connection.DBConnection.getConnection Connection to DB is established.
+24-Mar-2024 19:01:18.309 INFO [http-nio-8080-exec-62] server.servlets.RunTestServlet.doPost got testcases for runservlet
+24-Mar-2024 19:01:18.310 INFO [http-nio-8080-exec-62] server.servlets.RunTestServlet.doPost started running running in runner
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.writeFile Wrote code to the file in runner
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.compile started compiling in runner.
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.compile rustc
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example.rs
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.compile -o
+24-Mar-2024 19:01:18.311 INFO [http-nio-8080-exec-62] server.runner.Runner.compile /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 19:01:18.902 INFO [http-nio-8080-exec-62] server.runner.Runner.compile compiled in runner
+24-Mar-2024 19:01:18.902 INFO [http-nio-8080-exec-62] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 19:01:18.904 INFO [http-nio-8080-exec-62] server.runner.Tester.test process started in tester
+24-Mar-2024 19:01:18.904 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 1/1
+24-Mar-2024 19:01:18.904 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 1
+24-Mar-2024 19:01:18.904 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 1
+24-Mar-2024 19:01:18.904 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 19:01:20.103 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 1
+24-Mar-2024 19:01:20.104 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.104 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput read the output
+24-Mar-2024 19:01:20.104 INFO [http-nio-8080-exec-62] server.runner.Tester.test 1
+24-Mar-2024 19:01:20.104 INFO [http-nio-8080-exec-62] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 19:01:20.110 INFO [http-nio-8080-exec-62] server.runner.Tester.test process started in tester
+24-Mar-2024 19:01:20.111 INFO [Thread-6] server.runner.Tester.lambda$writeInput$0 2/2
+24-Mar-2024 19:01:20.112 INFO [Thread-6] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 19:01:20.112 INFO [Thread-6] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 19:01:20.112 INFO [Thread-6] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 19:01:20.114 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.114 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.114 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.115 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.115 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput read the output
+24-Mar-2024 19:01:20.115 INFO [http-nio-8080-exec-62] server.runner.Tester.test 2/2
+24-Mar-2024 19:01:20.115 INFO [http-nio-8080-exec-62] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example
+24-Mar-2024 19:01:20.121 INFO [http-nio-8080-exec-62] server.runner.Tester.test process started in tester
+24-Mar-2024 19:01:20.122 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 4/2
+24-Mar-2024 19:01:20.122 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 4
+24-Mar-2024 19:01:20.122 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 2
+24-Mar-2024 19:01:20.122 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.124 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput 2
+24-Mar-2024 19:01:20.125 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput this is line
+24-Mar-2024 19:01:20.125 INFO [http-nio-8080-exec-62] server.runner.Tester.readOutput read the output
+24-Mar-2024 19:01:20.125 INFO [http-nio-8080-exec-62] server.runner.Tester.test 2/2/2/2
+24-Mar-2024 19:01:20.129 INFO [http-nio-8080-exec-62] server.servlets.RunTestServlet.doPost tests are passed
+24-Mar-2024 19:01:20.129 INFO [http-nio-8080-exec-62] server.servlets.RunTestServlet.doPost sent the results from runservlet

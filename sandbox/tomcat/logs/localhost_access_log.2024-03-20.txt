@@ -1,0 +1,11 @@
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs HTTP/1.1" 302 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/ HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/docs-stylesheet.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/tomcat.png HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/asf-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/fonts/fonts.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/fonts/OpenSans600.woff HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/fonts/OpenSans700.woff HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/fonts/OpenSans400.woff HTTP/1.1" 304 -
+127.0.0.1 - - [20/Mar/2024:19:21:52 +0600] "GET /docs/images/fonts/OpenSans400italic.woff HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [20/Mar/2024:20:14:05 +0600] "GET /codecraft/api/testcases?id=1 HTTP/1.1" 200 76

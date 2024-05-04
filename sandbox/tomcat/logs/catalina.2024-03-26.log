@@ -1,0 +1,71 @@
+26-Mar-2024 10:59:59.389 INFO [http-nio-8080-exec-112] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+26-Mar-2024 10:59:59.399 INFO [http-nio-8080-exec-112] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+26-Mar-2024 10:59:59.587 INFO [http-nio-8080-exec-112] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Mar-2024 10:59:59.588 INFO [http-nio-8080-exec-112] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [189] ms
+26-Mar-2024 11:05:31.751 INFO [http-nio-8080-exec-122] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:05:31.764 INFO [http-nio-8080-exec-122] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:05:31.766 INFO [http-nio-8080-exec-122] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:05:42.308 INFO [http-nio-8080-exec-123] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:05:42.309 INFO [http-nio-8080-exec-123] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:05:42.310 INFO [http-nio-8080-exec-123] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:06:09.957 INFO [http-nio-8080-exec-125] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:06:09.959 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:06:09.959 INFO [http-nio-8080-exec-125] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:06:47.748 INFO [http-nio-8080-exec-127] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:06:47.749 INFO [http-nio-8080-exec-127] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:06:47.750 INFO [http-nio-8080-exec-127] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:06:49.686 INFO [http-nio-8080-exec-122] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:06:49.687 INFO [http-nio-8080-exec-122] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:06:49.687 INFO [http-nio-8080-exec-122] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:07:49.717 INFO [http-nio-8080-exec-128] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:07:49.719 INFO [http-nio-8080-exec-128] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:07:49.719 INFO [http-nio-8080-exec-128] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:08:16.326 INFO [http-nio-8080-exec-125] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:08:16.328 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:08:16.328 INFO [http-nio-8080-exec-125] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:08:18.974 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost New Request.
+26-Mar-2024 11:08:18.975 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost Started reading request.
+26-Mar-2024 11:08:18.975 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost Started reading request.
+26-Mar-2024 11:08:18.975 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost Empty
+26-Mar-2024 11:08:18.988 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost console.log("CodeCraft"); 
+26-Mar-2024 11:08:18.988 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost js
+26-Mar-2024 11:08:18.988 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost Example
+26-Mar-2024 11:08:18.988 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost 1
+26-Mar-2024 11:08:18.993 INFO [http-nio-8080-exec-126] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:08:18.998 INFO [http-nio-8080-exec-126] server.daos.TestCasesDAO.addTestCases Test cases: 
+26-Mar-2024 11:08:18.998 INFO [http-nio-8080-exec-126] server.daos.TestCasesDAO.addTestCases null
+26-Mar-2024 11:08:18.998 INFO [http-nio-8080-exec-126] server.daos.TestCasesDAO.addTestCases CodeCraft
+26-Mar-2024 11:08:18.998 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost got testcases for runservlet
+26-Mar-2024 11:08:19.001 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost started running running in runner
+26-Mar-2024 11:08:19.002 INFO [http-nio-8080-exec-126] server.runner.Runner.writeFile console.log("CodeCraft"); 
+26-Mar-2024 11:08:19.003 INFO [http-nio-8080-exec-126] server.runner.Runner.writeFile Wrote code to the file in runner
+26-Mar-2024 11:08:19.003 INFO [http-nio-8080-exec-126] server.runner.Runner.compile compiled in runner
+26-Mar-2024 11:08:19.003 INFO [http-nio-8080-exec-126] server.runner.Tester.test node
+26-Mar-2024 11:08:19.003 INFO [http-nio-8080-exec-126] server.runner.Tester.test /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example.js
+26-Mar-2024 11:08:19.032 INFO [http-nio-8080-exec-126] server.runner.Tester.test process started in tester
+26-Mar-2024 11:08:19.033 INFO [Thread-38] server.runner.Tester.lambda$writeInput$0 null
+26-Mar-2024 11:08:19.189 INFO [http-nio-8080-exec-126] server.runner.Tester.readOutput CodeCraft
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.readOutput this is line
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.readOutput read the output
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.test Test case: 
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.test CodeCraft
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.test Output of code: 
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Tester.test CodeCraft
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Runner.cleanUp Error removing file: /Users/tolymbeknurtai/desktop/projects/servlets/src/main/java/server/runner/tests/Example.js
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.runner.Runner.cleanUp cleaned up the files in runner
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost tests are passed
+26-Mar-2024 11:08:19.190 INFO [http-nio-8080-exec-126] server.servlets.RunTestServlet.doPost sent the results from runservlet
+26-Mar-2024 11:13:49.877 INFO [http-nio-8080-exec-122] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:13:49.878 INFO [http-nio-8080-exec-122] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:13:49.879 INFO [http-nio-8080-exec-122] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:14:11.352 INFO [http-nio-8080-exec-123] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:14:11.353 INFO [http-nio-8080-exec-123] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:14:11.354 INFO [http-nio-8080-exec-123] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 11:14:17.996 INFO [http-nio-8080-exec-128] server.connection.DBConnection.getConnection Connection to DB is established.
+26-Mar-2024 11:14:17.998 INFO [http-nio-8080-exec-128] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+26-Mar-2024 11:14:17.998 INFO [http-nio-8080-exec-128] server.servlets.QuestionsServlet.doGet Sent questions.
+26-Mar-2024 21:59:06.939 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+26-Mar-2024 21:59:06.945 WARNING [http-nio-8080-exec-124] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Mar-2024 21:59:06.953 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+26-Mar-2024 21:59:07.132 INFO [http-nio-8080-exec-124] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Mar-2024 21:59:07.139 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [184] ms

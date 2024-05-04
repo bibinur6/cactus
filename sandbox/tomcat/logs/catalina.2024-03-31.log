@@ -1,0 +1,530 @@
+31-Mar-2024 01:03:54.987 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 01:03:55.000 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 01:03:55.172 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 01:03:55.173 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [173] ms
+31-Mar-2024 02:17:37.413 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2024 02:17:37.446 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2024 02:17:37.515 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2024 02:17:37.564 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2024 12:47:16.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+31-Mar-2024 12:47:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/conf/logging.properties
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+31-Mar-2024 12:47:16.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/temp
+31-Mar-2024 12:47:16.174 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tolymbeknurtai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2024 12:47:16.346 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2024 12:47:16.362 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [296] milliseconds
+31-Mar-2024 12:47:16.385 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2024 12:47:16.385 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+31-Mar-2024 12:47:16.403 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war]
+31-Mar-2024 12:47:16.566 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war] has finished in [163] ms
+31-Mar-2024 12:47:16.567 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 12:47:16.768 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 12:47:16.770 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [203] ms
+31-Mar-2024 12:47:16.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs]
+31-Mar-2024 12:47:16.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs] has finished in [11] ms
+31-Mar-2024 12:47:16.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager]
+31-Mar-2024 12:47:16.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager] has finished in [15] ms
+31-Mar-2024 12:47:16.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples]
+31-Mar-2024 12:47:16.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples] has finished in [93] ms
+31-Mar-2024 12:47:16.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT]
+31-Mar-2024 12:47:16.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT] has finished in [11] ms
+31-Mar-2024 12:47:16.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager]
+31-Mar-2024 12:47:16.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager] has finished in [8] ms
+31-Mar-2024 12:47:16.912 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2024 12:47:16.918 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [555] milliseconds
+31-Mar-2024 12:47:23.779 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 12:47:23.791 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 12:47:23.949 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 12:47:23.950 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [159] ms
+31-Mar-2024 14:04:58.788 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:04:58.802 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:04:58.971 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:04:58.972 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [170] ms
+31-Mar-2024 14:15:39.252 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:15:39.264 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:15:39.450 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:15:39.451 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [187] ms
+31-Mar-2024 14:15:42.637 INFO [http-nio-8080-exec-30] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:15:52.536 INFO [http-nio-8080-exec-28] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:16:05.762 INFO [http-nio-8080-exec-22] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:17:05.640 INFO [http-nio-8080-exec-33] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:18:36.676 INFO [http-nio-8080-exec-34] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:19:58.627 INFO [http-nio-8080-exec-35] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:20:04.923 INFO [http-nio-8080-exec-31] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:28:52.814 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:28:52.839 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:28:53.008 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:28:53.039 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [170] ms
+31-Mar-2024 14:28:57.564 INFO [http-nio-8080-exec-33] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:29:22.367 INFO [http-nio-8080-exec-38] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:29:54.470 INFO [http-nio-8080-exec-41] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:30:42.975 INFO [http-nio-8080-exec-42] server.servlets.OpenContest.doGet New Request to open a contest
+31-Mar-2024 14:32:50.222 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:32:50.237 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:32:50.419 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:32:50.420 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [184] ms
+31-Mar-2024 14:32:56.579 INFO [http-nio-8080-exec-44] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:32:56.665 INFO [http-nio-8080-exec-44] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:32:56.673 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:32:56.673 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:32:56.676 INFO [http-nio-8080-exec-44] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:32:56.677 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:32:56.677 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:32:56.679 INFO [http-nio-8080-exec-44] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:32:56.680 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:32:56.680 INFO [http-nio-8080-exec-44] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:32:56.681 INFO [http-nio-8080-exec-44] server.servlets.OpenContest.doPost New contest added: 169195
+31-Mar-2024 14:35:39.314 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:35:39.319 WARNING [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:35:39.319 WARNING [http-nio-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [codecraft] appears to have started a thread named [Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ server.contest.ContestData.lambda$addContest$0(ContestData.java:16)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+31-Mar-2024 14:35:39.329 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:35:39.500 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:35:39.501 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [172] ms
+31-Mar-2024 14:35:46.051 INFO [http-nio-8080-exec-40] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:35:46.101 INFO [http-nio-8080-exec-40] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:35:46.108 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:35:46.109 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:35:46.111 INFO [http-nio-8080-exec-40] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:35:46.112 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:35:46.112 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:35:46.115 INFO [http-nio-8080-exec-40] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:35:46.116 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:35:46.116 INFO [http-nio-8080-exec-40] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:35:46.117 INFO [http-nio-8080-exec-40] server.servlets.OpenContest.doPost New contest added: 760221
+31-Mar-2024 14:35:46.117 INFO [http-nio-8080-exec-40] server.servlets.OpenContest.doPost {}
+31-Mar-2024 14:41:52.571 INFO [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:41:52.576 WARNING [http-nio-8080-exec-52] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:41:52.586 INFO [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:41:52.751 INFO [http-nio-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:41:52.752 INFO [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [166] ms
+31-Mar-2024 14:41:58.815 INFO [http-nio-8080-exec-59] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:41:58.885 INFO [http-nio-8080-exec-59] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:41:58.892 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:41:58.892 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:41:58.895 INFO [http-nio-8080-exec-59] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:41:58.895 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:41:58.896 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:41:58.898 INFO [http-nio-8080-exec-59] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:41:58.898 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:41:58.898 INFO [http-nio-8080-exec-59] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:41:58.899 INFO [http-nio-8080-exec-59] server.servlets.OpenContest.doPost New contest added: 029495
+31-Mar-2024 14:41:58.900 INFO [http-nio-8080-exec-59] server.servlets.OpenContest.doPost {"duration":3,"leaderboard":"server.contest.LeaderBoard@3375a524","questions":[{},{},{}],"timeStarted":"13:41","completed":false,"roomId":"029495"}
+31-Mar-2024 14:42:58.997 INFO [http-nio-8080-exec-61] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:42:59.002 WARNING [http-nio-8080-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:42:59.002 WARNING [http-nio-8080-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [codecraft] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ server.contest.ContestData.lambda$addContest$0(ContestData.java:16)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+31-Mar-2024 14:42:59.014 INFO [http-nio-8080-exec-61] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:42:59.181 INFO [http-nio-8080-exec-61] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:42:59.182 INFO [http-nio-8080-exec-61] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [168] ms
+31-Mar-2024 14:43:02.625 INFO [http-nio-8080-exec-54] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:43:02.680 INFO [http-nio-8080-exec-54] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:02.689 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:02.689 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:43:02.692 INFO [http-nio-8080-exec-54] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:02.693 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:02.693 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:43:02.695 INFO [http-nio-8080-exec-54] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:02.696 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:02.696 INFO [http-nio-8080-exec-54] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:43:02.697 INFO [http-nio-8080-exec-54] server.servlets.OpenContest.doPost New contest added: 167741
+31-Mar-2024 14:43:02.698 INFO [http-nio-8080-exec-54] server.servlets.OpenContest.doPost {"duration":3,"leaderboard":[],"questions":[{},{},{}],"timeStarted":"13:43","completed":false,"roomId":"167741"}
+31-Mar-2024 14:43:11.337 INFO [http-nio-8080-exec-64] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:43:11.342 INFO [http-nio-8080-exec-64] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:11.343 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:11.344 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:43:11.349 INFO [http-nio-8080-exec-64] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:11.350 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:11.350 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:43:11.355 INFO [http-nio-8080-exec-64] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:43:11.357 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:43:11.357 INFO [http-nio-8080-exec-64] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:43:11.357 INFO [http-nio-8080-exec-64] server.servlets.OpenContest.doPost New contest added: 057758
+31-Mar-2024 14:43:11.357 INFO [http-nio-8080-exec-64] server.servlets.OpenContest.doPost {"duration":3,"leaderboard":[],"questions":[{},{},{}],"timeStarted":"13:43","completed":false,"roomId":"057758"}
+31-Mar-2024 14:50:51.948 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:50:51.963 WARNING [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:50:51.977 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:50:52.148 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:50:52.149 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [172] ms
+31-Mar-2024 14:50:55.570 INFO [http-nio-8080-exec-66] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:50:55.639 INFO [http-nio-8080-exec-66] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:50:55.650 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:50:55.650 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:50:55.665 INFO [http-nio-8080-exec-66] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:50:55.666 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:50:55.666 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:50:55.669 INFO [http-nio-8080-exec-66] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:50:55.670 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:50:55.670 INFO [http-nio-8080-exec-66] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:50:55.670 INFO [http-nio-8080-exec-66] server.servlets.OpenContest.doPost New contest added: 918051
+31-Mar-2024 14:50:55.671 INFO [http-nio-8080-exec-66] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{},{},{}],"timeStarted":"13:50","completed":false,"roomId":"918051"}
+31-Mar-2024 14:51:02.959 INFO [http-nio-8080-exec-68] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:51:02.968 INFO [http-nio-8080-exec-68] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:51:02.970 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:51:02.971 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:51:02.976 INFO [http-nio-8080-exec-68] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:51:02.978 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:51:02.978 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:51:02.983 INFO [http-nio-8080-exec-68] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:51:02.984 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:51:02.984 INFO [http-nio-8080-exec-68] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:51:02.985 INFO [http-nio-8080-exec-68] server.servlets.OpenContest.doPost New contest added: 314328
+31-Mar-2024 14:51:02.985 INFO [http-nio-8080-exec-68] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{},{},{}],"timeStarted":"13:51","completed":false,"roomId":"314328"}
+31-Mar-2024 14:53:44.573 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:53:44.580 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:53:44.580 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [codecraft] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ server.contest.ContestData.lambda$addContest$0(ContestData.java:16)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+31-Mar-2024 14:53:44.580 WARNING [http-nio-8080-exec-75] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [codecraft] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ server.contest.ContestData.lambda$addContest$0(ContestData.java:16)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+31-Mar-2024 14:53:44.593 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:53:44.774 INFO [http-nio-8080-exec-75] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:53:44.776 INFO [http-nio-8080-exec-75] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [183] ms
+31-Mar-2024 14:53:48.634 INFO [http-nio-8080-exec-76] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:53:48.688 INFO [http-nio-8080-exec-76] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:53:48.696 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:53:48.696 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:53:48.699 INFO [http-nio-8080-exec-76] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:53:48.699 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:53:48.699 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:53:48.702 INFO [http-nio-8080-exec-76] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:53:48.702 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:53:48.702 INFO [http-nio-8080-exec-76] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:53:48.703 INFO [http-nio-8080-exec-76] server.servlets.OpenContest.doPost New contest added: 088285
+31-Mar-2024 14:53:48.703 INFO [http-nio-8080-exec-76] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"13:53","completed":false,"roomId":"088285"}
+31-Mar-2024 14:54:47.465 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 14:54:47.470 WARNING [http-nio-8080-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 14:54:47.470 WARNING [http-nio-8080-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [codecraft] appears to have started a thread named [Thread-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ server.contest.ContestData.lambda$addContest$0(ContestData.java:16)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+31-Mar-2024 14:54:47.479 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 14:54:47.642 INFO [http-nio-8080-exec-82] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 14:54:47.643 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [164] ms
+31-Mar-2024 14:54:54.595 INFO [http-nio-8080-exec-72] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 14:54:54.647 INFO [http-nio-8080-exec-72] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:54:54.655 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:54:54.655 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 14:54:54.658 INFO [http-nio-8080-exec-72] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:54:54.658 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:54:54.659 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 14:54:54.663 INFO [http-nio-8080-exec-72] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 14:54:54.664 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 14:54:54.664 INFO [http-nio-8080-exec-72] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 14:54:54.664 INFO [http-nio-8080-exec-72] server.servlets.OpenContest.doPost New contest added: 852953
+31-Mar-2024 14:54:54.665 INFO [http-nio-8080-exec-72] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"13:54","completed":false,"roomId":"852953"}
+31-Mar-2024 17:44:33.693 INFO [http-nio-8080-exec-85] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 17:44:33.710 INFO [http-nio-8080-exec-85] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:44:33.712 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:44:33.713 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 17:44:33.717 INFO [http-nio-8080-exec-85] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:44:33.718 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:44:33.718 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 17:44:33.721 INFO [http-nio-8080-exec-85] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:44:33.721 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:44:33.721 INFO [http-nio-8080-exec-85] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 17:44:33.722 INFO [http-nio-8080-exec-85] server.servlets.OpenContest.doPost New contest added: 796966
+31-Mar-2024 17:44:33.722 INFO [http-nio-8080-exec-85] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"16:44","completed":false,"roomId":"796966"}
+31-Mar-2024 17:49:26.583 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 17:49:26.599 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:49:26.600 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:49:26.601 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 17:49:26.606 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:49:26.606 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:49:26.606 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 17:49:26.609 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:49:26.610 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:49:26.610 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 17:49:26.610 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost New contest added: 888925
+31-Mar-2024 17:49:26.610 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"16:49","completed":false,"roomId":"888925"}
+31-Mar-2024 17:54:26.605 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 17:54:26.610 WARNING [http-nio-8080-exec-91] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 17:54:26.620 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 17:54:26.793 INFO [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 17:54:26.794 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [174] ms
+31-Mar-2024 17:54:31.181 INFO [http-nio-8080-exec-87] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 17:54:31.187 INFO [http-nio-8080-exec-87] server.servlets.GetContestServlet.doGet Contest was not found: 888925
+31-Mar-2024 17:54:38.699 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 17:54:38.760 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:54:38.769 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:54:38.769 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 17:54:38.772 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:54:38.773 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:54:38.773 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 17:54:38.777 INFO [http-nio-8080-exec-89] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 17:54:38.777 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 17:54:38.777 INFO [http-nio-8080-exec-89] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 17:54:38.778 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost New contest added: 422702
+31-Mar-2024 17:54:38.778 INFO [http-nio-8080-exec-89] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"16:54","completed":false,"roomId":"422702"}
+31-Mar-2024 17:54:56.472 INFO [http-nio-8080-exec-92] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 17:54:56.473 INFO [http-nio-8080-exec-92] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 17:54:56.473 INFO [http-nio-8080-exec-92] server.servlets.GetContestServlet.doGet Sending contest: 422702
+31-Mar-2024 17:55:46.875 INFO [http-nio-8080-exec-95] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 17:55:46.878 INFO [http-nio-8080-exec-95] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 17:55:46.878 INFO [http-nio-8080-exec-95] server.servlets.GetContestServlet.doGet Sending contest: 422702
+31-Mar-2024 17:56:06.668 INFO [http-nio-8080-exec-97] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 17:56:06.669 INFO [http-nio-8080-exec-97] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 17:56:06.669 INFO [http-nio-8080-exec-97] server.servlets.GetContestServlet.doGet Sending contest: 422702
+31-Mar-2024 17:56:19.885 INFO [http-nio-8080-exec-98] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 17:56:19.886 INFO [http-nio-8080-exec-98] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 17:56:19.886 INFO [http-nio-8080-exec-98] server.servlets.GetContestServlet.doGet Sending contest: 422702
+31-Mar-2024 18:06:18.458 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 18:06:18.462 WARNING [http-nio-8080-exec-100] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 18:06:18.472 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 18:06:18.637 INFO [http-nio-8080-exec-100] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 18:06:18.638 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [166] ms
+31-Mar-2024 18:06:32.086 INFO [http-nio-8080-exec-103] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 18:06:32.154 INFO [http-nio-8080-exec-103] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:06:32.164 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:06:32.164 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 18:06:32.166 INFO [http-nio-8080-exec-103] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:06:32.167 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:06:32.167 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 18:06:32.169 INFO [http-nio-8080-exec-103] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:06:32.170 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:06:32.170 INFO [http-nio-8080-exec-103] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 18:06:32.170 INFO [http-nio-8080-exec-103] server.servlets.OpenContest.doPost New contest added: 860348
+31-Mar-2024 18:06:32.171 INFO [http-nio-8080-exec-103] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"17:06","completed":false,"roomId":"860348"}
+31-Mar-2024 18:06:43.050 INFO [http-nio-8080-exec-96] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:06:43.050 INFO [http-nio-8080-exec-96] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:06:43.050 INFO [http-nio-8080-exec-96] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:08:00.477 INFO [http-nio-8080-exec-105] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 18:08:00.489 INFO [http-nio-8080-exec-105] server.servlets.ContestRegister.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:28.698 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:28.700 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:31.529 INFO [http-nio-8080-exec-109] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:31.530 INFO [http-nio-8080-exec-109] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:32.592 INFO [http-nio-8080-exec-105] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:32.593 INFO [http-nio-8080-exec-105] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:33.267 INFO [http-nio-8080-exec-111] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:33.268 INFO [http-nio-8080-exec-111] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:33.932 INFO [http-nio-8080-exec-104] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:33.934 INFO [http-nio-8080-exec-104] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:34.956 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:08:34.956 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet Leader Nurtai to room 860348: true
+31-Mar-2024 18:08:38.381 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:08:38.382 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:08:38.382 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:09:01.822 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:09:01.824 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:09:01.824 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:12:09.051 INFO [http-nio-8080-exec-111] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:12:09.054 INFO [http-nio-8080-exec-111] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:12:09.054 INFO [http-nio-8080-exec-111] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:15:24.365 INFO [http-nio-8080-exec-107] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:15:24.369 INFO [http-nio-8080-exec-107] server.servlets.GetContestServlet.doGet Contest was not found: 422702
+31-Mar-2024 18:15:57.316 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:15:57.319 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:15:57.319 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:16:06.878 INFO [http-nio-8080-exec-110] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:16:06.879 INFO [http-nio-8080-exec-110] server.servlets.GetContestServlet.doGet Contest was not found: 422702
+31-Mar-2024 18:16:14.368 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 18:16:14.368 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 18:16:14.368 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 18:48:25.699 INFO [http-nio-8080-exec-113] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 18:48:25.726 INFO [http-nio-8080-exec-113] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:48:25.731 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:48:25.732 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 18:48:25.735 INFO [http-nio-8080-exec-113] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:48:25.736 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:48:25.736 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 18:48:25.738 INFO [http-nio-8080-exec-113] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:48:25.739 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:48:25.739 INFO [http-nio-8080-exec-113] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 18:48:25.739 INFO [http-nio-8080-exec-113] server.servlets.OpenContest.doPost New contest added: 476188
+31-Mar-2024 18:48:25.739 INFO [http-nio-8080-exec-113] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"17:48","completed":false,"roomId":"476188"}
+31-Mar-2024 18:57:13.547 INFO [http-nio-8080-exec-111] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 18:57:13.573 INFO [http-nio-8080-exec-111] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:57:13.577 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:57:13.577 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 18:57:13.580 INFO [http-nio-8080-exec-111] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:57:13.581 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:57:13.581 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 18:57:13.583 INFO [http-nio-8080-exec-111] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 18:57:13.583 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 18:57:13.583 INFO [http-nio-8080-exec-111] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 18:57:13.584 INFO [http-nio-8080-exec-111] server.servlets.OpenContest.doPost New contest added: 717721
+31-Mar-2024 18:57:13.584 INFO [http-nio-8080-exec-111] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"17:57","completed":false,"roomId":"717721"}
+31-Mar-2024 18:57:26.407 INFO [http-nio-8080-exec-107] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 18:57:26.408 INFO [http-nio-8080-exec-107] server.servlets.ContestRegister.doGet Leader Nurtai to room 717721: true
+31-Mar-2024 18:57:39.412 INFO [http-nio-8080-exec-109] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 18:57:39.415 INFO [http-nio-8080-exec-109] server.servlets.ContestRegister.doGet Leader Nurtai to room 717721: false
+31-Mar-2024 18:57:45.571 INFO [http-nio-8080-exec-105] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:57:45.573 INFO [http-nio-8080-exec-105] server.servlets.PointsServlet.doGet Leader Nurtai to room 717721: true
+31-Mar-2024 18:57:45.802 INFO [http-nio-8080-exec-113] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:57:45.803 INFO [http-nio-8080-exec-113] server.servlets.PointsServlet.doGet Leader Nurtai to room 717721: true
+31-Mar-2024 18:57:46.250 INFO [http-nio-8080-exec-111] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:57:46.251 INFO [http-nio-8080-exec-111] server.servlets.PointsServlet.doGet Leader Nurtai to room 717721: true
+31-Mar-2024 18:57:47.276 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 18:57:47.277 INFO [http-nio-8080-exec-107] server.servlets.PointsServlet.doGet Leader Nurtai to room 717721: true
+31-Mar-2024 19:00:24.092 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:00:24.095 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:00:24.095 INFO [http-nio-8080-exec-109] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 19:02:53.417 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:02:53.420 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:02:53.420 INFO [http-nio-8080-exec-105] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 19:03:07.216 INFO [http-nio-8080-exec-113] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:03:07.217 INFO [http-nio-8080-exec-113] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:03:07.217 INFO [http-nio-8080-exec-113] server.servlets.GetContestServlet.doGet Sending contest: 860348
+31-Mar-2024 19:05:09.814 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 19:05:09.820 WARNING [http-nio-8080-exec-111] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 19:05:09.829 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 19:05:10.004 INFO [http-nio-8080-exec-111] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 19:05:10.005 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [176] ms
+31-Mar-2024 19:05:16.892 INFO [http-nio-8080-exec-105] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 19:05:16.945 INFO [http-nio-8080-exec-105] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:05:16.953 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:05:16.953 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 19:05:16.956 INFO [http-nio-8080-exec-105] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:05:16.957 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:05:16.957 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 19:05:16.959 INFO [http-nio-8080-exec-105] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:05:16.960 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:05:16.960 INFO [http-nio-8080-exec-105] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 19:05:16.961 INFO [http-nio-8080-exec-105] server.servlets.OpenContest.doPost New contest added: 752833
+31-Mar-2024 19:05:16.961 INFO [http-nio-8080-exec-105] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"18:05","completed":false,"roomId":"752833"}
+31-Mar-2024 19:05:28.896 INFO [http-nio-8080-exec-114] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:05:28.903 INFO [http-nio-8080-exec-114] server.servlets.ContestRegister.doGet Leader Nurtai to room 752833: true
+31-Mar-2024 19:05:36.876 INFO [http-nio-8080-exec-113] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:05:36.878 INFO [http-nio-8080-exec-113] server.servlets.ContestRegister.doGet Leader Almas to room 752833: true
+31-Mar-2024 19:05:46.731 INFO [http-nio-8080-exec-110] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:46.734 INFO [http-nio-8080-exec-110] server.servlets.PointsServlet.doGet Leader Nurtai to room 752833: true
+31-Mar-2024 19:05:47.263 INFO [http-nio-8080-exec-115] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:47.264 INFO [http-nio-8080-exec-115] server.servlets.PointsServlet.doGet Leader Nurtai to room 752833: true
+31-Mar-2024 19:05:47.863 INFO [http-nio-8080-exec-116] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:47.864 INFO [http-nio-8080-exec-116] server.servlets.PointsServlet.doGet Leader Nurtai to room 752833: true
+31-Mar-2024 19:05:56.616 INFO [http-nio-8080-exec-117] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:56.617 INFO [http-nio-8080-exec-117] server.servlets.PointsServlet.doGet Leader Almas to room 752833: true
+31-Mar-2024 19:05:57.290 INFO [http-nio-8080-exec-118] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:57.291 INFO [http-nio-8080-exec-118] server.servlets.PointsServlet.doGet Leader Almas to room 752833: true
+31-Mar-2024 19:05:58.721 INFO [http-nio-8080-exec-119] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:05:58.723 INFO [http-nio-8080-exec-119] server.servlets.PointsServlet.doGet Leader Almas to room 752833: true
+31-Mar-2024 19:06:09.047 INFO [http-nio-8080-exec-115] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:06:09.049 INFO [http-nio-8080-exec-115] server.servlets.GetContestServlet.doGet Contest was not found: 860348
+31-Mar-2024 19:06:16.850 INFO [http-nio-8080-exec-116] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:06:16.851 INFO [http-nio-8080-exec-116] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:06:16.851 INFO [http-nio-8080-exec-116] server.servlets.GetContestServlet.doGet Sending contest: 752833
+31-Mar-2024 19:12:51.514 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 19:12:51.519 WARNING [http-nio-8080-exec-117] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 19:12:51.527 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 19:12:51.724 INFO [http-nio-8080-exec-117] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 19:12:51.725 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [198] ms
+31-Mar-2024 19:13:14.157 INFO [http-nio-8080-exec-121] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 19:13:14.223 INFO [http-nio-8080-exec-121] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:13:14.232 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:13:14.232 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 19:13:14.235 INFO [http-nio-8080-exec-121] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:13:14.235 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:13:14.235 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 19:13:14.238 INFO [http-nio-8080-exec-121] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:13:14.238 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:13:14.238 INFO [http-nio-8080-exec-121] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 19:13:14.239 INFO [http-nio-8080-exec-121] server.servlets.OpenContest.doPost New contest added: 945111
+31-Mar-2024 19:13:14.240 INFO [http-nio-8080-exec-121] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"18:13","completed":false,"roomId":"945111"}
+31-Mar-2024 19:13:30.428 INFO [http-nio-8080-exec-122] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:13:30.430 INFO [http-nio-8080-exec-122] server.servlets.ContestRegister.doGet Leader Almas to room 945111: true
+31-Mar-2024 19:13:37.880 INFO [http-nio-8080-exec-119] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:13:37.880 INFO [http-nio-8080-exec-119] server.servlets.ContestRegister.doGet Leader Nurtai to room 945111: true
+31-Mar-2024 19:13:50.834 INFO [http-nio-8080-exec-115] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:13:50.836 INFO [http-nio-8080-exec-115] server.servlets.PointsServlet.doGet Leader Almas to room 945111: true
+31-Mar-2024 19:13:51.715 INFO [http-nio-8080-exec-125] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:13:51.716 INFO [http-nio-8080-exec-125] server.servlets.PointsServlet.doGet Leader Almas to room 945111: true
+31-Mar-2024 19:13:59.741 INFO [http-nio-8080-exec-126] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:13:59.742 INFO [http-nio-8080-exec-126] server.servlets.PointsServlet.doGet Leader Almas to room 945111: true
+31-Mar-2024 19:14:04.968 INFO [http-nio-8080-exec-127] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:14:04.969 INFO [http-nio-8080-exec-127] server.servlets.PointsServlet.doGet Leader Nurtai to room 945111: true
+31-Mar-2024 19:14:07.491 INFO [http-nio-8080-exec-128] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:14:07.492 INFO [http-nio-8080-exec-128] server.servlets.PointsServlet.doGet Leader Nurtai to room 945111: true
+31-Mar-2024 19:14:08.822 INFO [http-nio-8080-exec-129] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:14:08.824 INFO [http-nio-8080-exec-129] server.servlets.PointsServlet.doGet Leader Nurtai to room 945111: true
+31-Mar-2024 19:14:13.893 INFO [http-nio-8080-exec-125] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:14:13.895 INFO [http-nio-8080-exec-125] server.servlets.GetContestServlet.doGet Contest was not found: 752833
+31-Mar-2024 19:14:18.446 INFO [http-nio-8080-exec-126] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:14:18.446 INFO [http-nio-8080-exec-126] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:14:18.447 INFO [http-nio-8080-exec-126] server.servlets.GetContestServlet.doGet Sending contest: 945111
+31-Mar-2024 19:17:52.523 INFO [http-nio-8080-exec-127] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:17:52.526 INFO [http-nio-8080-exec-127] server.servlets.PointsServlet.doGet Leader Nurtai to room 945111: true
+31-Mar-2024 19:17:56.927 INFO [http-nio-8080-exec-128] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:17:56.928 INFO [http-nio-8080-exec-128] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:17:56.928 INFO [http-nio-8080-exec-128] server.servlets.GetContestServlet.doGet Sending contest: 945111
+31-Mar-2024 19:18:32.353 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+31-Mar-2024 19:18:32.357 WARNING [http-nio-8080-exec-129] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2024 19:18:32.371 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+31-Mar-2024 19:18:32.549 INFO [http-nio-8080-exec-129] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2024 19:18:32.550 INFO [http-nio-8080-exec-129] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [179] ms
+31-Mar-2024 19:18:41.086 INFO [http-nio-8080-exec-125] server.servlets.OpenContest.doPost New Request to open a contest
+31-Mar-2024 19:18:41.143 INFO [http-nio-8080-exec-125] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:18:41.151 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:18:41.151 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Hello, world!
+31-Mar-2024 19:18:41.154 INFO [http-nio-8080-exec-125] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:18:41.155 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:18:41.155 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Printing on the screen
+31-Mar-2024 19:18:41.157 INFO [http-nio-8080-exec-125] server.connection.DBConnection.getConnection Connection to DB is established.
+31-Mar-2024 19:18:41.158 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Got question by id from DB.
+31-Mar-2024 19:18:41.158 INFO [http-nio-8080-exec-125] server.daos.QuestionsDAO.getQuestionsById Printing several outputs
+31-Mar-2024 19:18:41.159 INFO [http-nio-8080-exec-125] server.servlets.OpenContest.doPost New contest added: 727724
+31-Mar-2024 19:18:41.160 INFO [http-nio-8080-exec-125] server.servlets.OpenContest.doPost {"duration":3,"leaderBoard":[],"questions":[{"difficultyLevel":"easy","id":1,"title":"Hello, world!","content":"Welcome to CodeCraft! Make a program that print to the screen the output below."},{"difficultyLevel":"easy","id":2,"title":"Printing on the screen","content":"Write a program that takes an input and prints it to the screen."},{"difficultyLevel":"easy","id":3,"title":"Printing several outputs","content":"Write a program that takes two lines: number of rows to print and what to print."}],"timeStarted":"18:18","completed":false,"roomId":"727724"}
+31-Mar-2024 19:18:54.359 INFO [http-nio-8080-exec-128] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:18:54.360 INFO [http-nio-8080-exec-128] server.servlets.ContestRegister.doGet Leader Nurtai to room 727724: true
+31-Mar-2024 19:19:00.548 INFO [http-nio-8080-exec-126] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:19:00.549 INFO [http-nio-8080-exec-126] server.servlets.ContestRegister.doGet Leader Almas to room 727724: true
+31-Mar-2024 19:19:09.604 INFO [http-nio-8080-exec-131] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:19:09.605 INFO [http-nio-8080-exec-131] server.servlets.ContestRegister.doGet Leader Ualikhan to room 727724: true
+31-Mar-2024 19:19:21.415 INFO [http-nio-8080-exec-135] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:21.419 INFO [http-nio-8080-exec-135] server.servlets.PointsServlet.doGet Leader Nurtai to room 727724: true
+31-Mar-2024 19:19:22.750 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:22.751 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet Leader Nurtai to room 727724: true
+31-Mar-2024 19:19:24.264 INFO [http-nio-8080-exec-137] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:24.265 INFO [http-nio-8080-exec-137] server.servlets.PointsServlet.doGet Leader Nurtai to room 727724: true
+31-Mar-2024 19:19:31.395 INFO [http-nio-8080-exec-138] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:31.396 INFO [http-nio-8080-exec-138] server.servlets.PointsServlet.doGet Leader Almas to room 727724: true
+31-Mar-2024 19:19:33.568 INFO [http-nio-8080-exec-139] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:33.568 INFO [http-nio-8080-exec-139] server.servlets.PointsServlet.doGet Leader Almas to room 727724: true
+31-Mar-2024 19:19:34.960 INFO [http-nio-8080-exec-135] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:34.960 INFO [http-nio-8080-exec-135] server.servlets.PointsServlet.doGet Leader Almas to room 727724: true
+31-Mar-2024 19:19:42.661 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:42.662 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet Leader Ualikhan to room 727724: true
+31-Mar-2024 19:19:44.091 INFO [http-nio-8080-exec-137] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:19:44.092 INFO [http-nio-8080-exec-137] server.servlets.PointsServlet.doGet Leader Ualikhan to room 727724: true
+31-Mar-2024 19:19:49.607 INFO [http-nio-8080-exec-138] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:19:49.608 INFO [http-nio-8080-exec-138] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:19:49.609 INFO [http-nio-8080-exec-138] server.servlets.GetContestServlet.doGet Sending contest: 727724
+31-Mar-2024 19:19:52.285 INFO [http-nio-8080-exec-139] server.servlets.GetContestServlet.doGet New Request to get a Contest.
+31-Mar-2024 19:19:52.286 INFO [http-nio-8080-exec-139] server.servlets.GetContestServlet.doGet Contest found.
+31-Mar-2024 19:19:52.286 INFO [http-nio-8080-exec-139] server.servlets.GetContestServlet.doGet Sending contest: 727724
+31-Mar-2024 19:22:18.794 INFO [http-nio-8080-exec-135] server.servlets.ContestRegister.doGet New request to add a leader.
+31-Mar-2024 19:22:18.798 INFO [http-nio-8080-exec-135] server.servlets.ContestRegister.doGet Leader Olzhas to room 727724: true
+31-Mar-2024 19:24:45.327 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet New request to add point.
+31-Mar-2024 19:24:45.331 INFO [http-nio-8080-exec-136] server.servlets.PointsServlet.doGet Leader Ualikhan to room 727724: true
