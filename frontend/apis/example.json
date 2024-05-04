@@ -1,0 +1,27 @@
+{
+  duration: 3,
+  leaderBoard: [],
+  questions: [
+    {
+      difficultyLevel: 'easy',
+      id: 1,
+      title: 'Hello, world!',
+      content: 'Welcome to CodeCraft! Make a program that print to the screen the output below.'
+    },
+    {
+      difficultyLevel: 'easy',
+      id: 2,
+      title: 'Printing on the screen',
+      content: 'Write a program that takes an input and prints it to the screen.'
+    },
+    {
+      difficultyLevel: 'easy',
+      id: 3,
+      title: 'Printing several outputs',
+      content: 'Write a program that takes two lines: number of rows to print and what to print.'
+    }
+  ],
+  timeStarted: '17:48',
+  completed: false,
+  roomId: '476188'
+}

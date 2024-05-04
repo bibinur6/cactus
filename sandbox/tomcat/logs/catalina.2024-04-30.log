@@ -1,0 +1,824 @@
+30-Apr-2024 08:36:17.066 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+30-Apr-2024 08:36:17.070 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 08:36:17.077 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+30-Apr-2024 08:36:17.244 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 08:36:17.245 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [168] ms
+30-Apr-2024 08:48:46.590 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:48:46.593 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:48:46.593 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:48:46.593 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:48:46.609 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+
+30-Apr-2024 08:48:46.610 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost py
+30-Apr-2024 08:48:46.610 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 08:48:46.610 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Question's id is 4
+30-Apr-2024 08:48:46.674 INFO [http-nio-8080-exec-26] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 08:48:46.683 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 1 2
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 3
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 7 8
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 15
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 45 56
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 101
+30-Apr-2024 08:48:46.684 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 08:48:46.687 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 08:48:46.687 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+
+30-Apr-2024 08:48:46.688 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+30-Apr-2024 08:48:46.688 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 08:48:46.689 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 08:48:46.689 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 08:48:46.692 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 08:48:46.693 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 08:48:46.693 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 08:48:46.693 INFO [Thread-3] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 3
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test 3
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test 3
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 08:48:46.743 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 08:48:46.745 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 08:48:46.745 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 08:48:46.746 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 08:48:46.746 INFO [Thread-4] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 08:48:46.760 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 15
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test 15
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test 15
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 08:48:46.761 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 08:48:46.763 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 08:48:46.763 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 08:48:46.763 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 08:48:46.763 INFO [Thread-5] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 08:48:46.777 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 101
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.test 101
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.Tester.test 101
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost tests are passed
+30-Apr-2024 08:48:46.778 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 08:50:55.779 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:55.783 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:55.784 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:55.784 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:50:57.829 INFO [http-nio-8080-exec-25] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:57.830 INFO [http-nio-8080-exec-25] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:57.830 INFO [http-nio-8080-exec-25] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:57.830 INFO [http-nio-8080-exec-25] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:50:58.473 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:58.473 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.473 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.473 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:50:58.674 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:58.675 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.675 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.675 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:50:58.863 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:58.864 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.864 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:58.864 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 08:50:59.042 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 08:50:59.042 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:59.042 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 08:50:59.042 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 09:41:57.779 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 09:41:57.781 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 09:41:57.781 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 09:41:57.781 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 09:41:57.782 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost console.log("Cactus")
+30-Apr-2024 09:41:57.782 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 09:41:57.782 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 09:41:57.782 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 09:41:57.791 INFO [http-nio-8080-exec-23] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 09:41:57.792 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 09:41:57.792 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 09:41:57.792 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 09:41:57.792 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 09:41:57.796 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 09:41:57.797 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.writeFile console.log("Cactus")
+30-Apr-2024 09:41:57.797 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+30-Apr-2024 09:41:57.797 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 09:41:57.797 INFO [http-nio-8080-exec-23] server.runner.Tester.test node
+30-Apr-2024 09:41:57.797 INFO [http-nio-8080-exec-23] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 09:41:57.805 INFO [http-nio-8080-exec-23] server.runner.Tester.test process started in tester
+30-Apr-2024 09:41:57.806 INFO [Thread-6] server.runner.Tester.lambda$writeInput$0 null
+30-Apr-2024 09:41:57.842 INFO [http-nio-8080-exec-23] server.runner.Tester.readOutput Cactus
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.readOutput this is line
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.readOutput read the output
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.test Test case: 
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.test Cactus
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.test Output of code: 
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.Tester.test Cactus
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost tests are passed
+30-Apr-2024 09:41:57.843 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 09:42:20.525 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost py
+30-Apr-2024 09:42:20.527 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 09:42:20.528 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Question's id is 4
+30-Apr-2024 09:42:20.535 INFO [http-nio-8080-exec-26] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 09:42:20.537 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 09:42:20.537 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 1 2
+30-Apr-2024 09:42:20.537 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 3
+30-Apr-2024 09:42:20.537 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 7 8
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 15
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 45 56
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases 101
+30-Apr-2024 09:42:20.538 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 09:42:20.539 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 09:42:20.539 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 09:42:20.540 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+30-Apr-2024 09:42:20.540 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 09:42:20.541 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 09:42:20.541 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 09:42:20.552 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 09:42:20.552 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 09:42:20.552 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 09:42:20.553 INFO [Thread-7] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 3
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test 3
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test 3
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 09:42:20.613 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 09:42:20.615 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 09:42:20.615 INFO [Thread-8] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 09:42:20.615 INFO [Thread-8] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 09:42:20.615 INFO [Thread-8] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 09:42:20.627 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 15
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test 15
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test 15
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test python3
+30-Apr-2024 09:42:20.628 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 09:42:20.629 INFO [http-nio-8080-exec-26] server.runner.Tester.test process started in tester
+30-Apr-2024 09:42:20.629 INFO [Thread-9] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 09:42:20.629 INFO [Thread-9] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 09:42:20.629 INFO [Thread-9] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput 101
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput this is line
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.readOutput read the output
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.test Test case: 
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.test 101
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.test Output of code: 
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.Tester.test 101
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost tests are passed
+30-Apr-2024 09:42:20.641 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:20:04.038 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:20:04.042 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:20:04.042 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:20:04.042 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:20:04.043 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 10:20:04.043 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost py
+30-Apr-2024 10:20:04.043 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:20:04.043 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:20:04.058 INFO [http-nio-8080-exec-28] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:20:04.061 INFO [http-nio-8080-exec-28] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:20:04.061 INFO [http-nio-8080-exec-28] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:20:04.062 INFO [http-nio-8080-exec-28] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:20:04.062 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:20:04.062 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:20:04.062 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.writeFile input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 10:20:04.063 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py (No such file or directory)
+30-Apr-2024 10:20:04.064 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:20:04.064 INFO [http-nio-8080-exec-28] server.runner.Tester.test python3
+30-Apr-2024 10:20:04.064 INFO [http-nio-8080-exec-28] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.runner.Tester.test Error testing codeCannot run program "python3": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:20:04.065 INFO [http-nio-8080-exec-28] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:21:18.246 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:21:18.249 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:18.249 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:18.250 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:21:18.250 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost print("Cactus")
+30-Apr-2024 10:21:18.250 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost py
+30-Apr-2024 10:21:18.250 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:21:18.251 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:21:18.261 INFO [http-nio-8080-exec-29] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:21:18.264 INFO [http-nio-8080-exec-29] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:21:18.264 INFO [http-nio-8080-exec-29] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:21:18.265 INFO [http-nio-8080-exec-29] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:21:18.265 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:21:18.265 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:21:18.265 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.writeFile print("Cactus")
+30-Apr-2024 10:21:18.266 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py (No such file or directory)
+30-Apr-2024 10:21:18.266 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:21:18.266 INFO [http-nio-8080-exec-29] server.runner.Tester.test python3
+30-Apr-2024 10:21:18.266 INFO [http-nio-8080-exec-29] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:21:18.266 INFO [http-nio-8080-exec-29] server.runner.Tester.test Error testing codeCannot run program "python3": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:21:18.267 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:21:18.267 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:21:18.267 INFO [http-nio-8080-exec-29] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:21:18.267 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:21:18.267 INFO [http-nio-8080-exec-29] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:21:37.092 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:21:37.092 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost console.log('Cactus')
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:21:37.093 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:21:37.101 INFO [http-nio-8080-exec-30] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:21:37.103 INFO [http-nio-8080-exec-30] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:21:37.103 INFO [http-nio-8080-exec-30] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.writeFile console.log('Cactus')
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:21:37.104 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.Tester.test node
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:21:37.105 INFO [http-nio-8080-exec-30] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:21:45.278 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:21:45.278 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost console.log('Cactus')
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:21:45.279 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:21:45.286 INFO [http-nio-8080-exec-21] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:21:45.288 INFO [http-nio-8080-exec-21] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:21:45.288 INFO [http-nio-8080-exec-21] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:21:45.288 INFO [http-nio-8080-exec-21] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:21:45.288 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:21:45.288 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.writeFile console.log('Cactus')
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.Tester.test node
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:21:45.289 INFO [http-nio-8080-exec-21] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:21:52.797 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:21:52.799 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:52.799 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:52.799 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:21:52.800 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost console.log('Cactus')
+30-Apr-2024 10:21:52.800 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:21:52.800 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:21:52.800 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:21:52.814 INFO [http-nio-8080-exec-22] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:21:52.817 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:21:52.817 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:21:52.817 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.writeFile console.log('Cactus')
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.Tester.test node
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:52.818 INFO [http-nio-8080-exec-22] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:21:52.819 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:52.819 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:52.819 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:21:52.819 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:21:52.819 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:21:57.950 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:21:57.950 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost console.log('Cactus')
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:21:57.951 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:21:57.956 INFO [http-nio-8080-exec-23] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:21:57.957 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.writeFile console.log('Cactus')
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.runner.Tester.test node
+30-Apr-2024 10:21:57.958 INFO [http-nio-8080-exec-23] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:21:57.959 INFO [http-nio-8080-exec-23] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:22:21.545 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost console.log("Cactus")
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:22:21.546 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:22:21.556 INFO [http-nio-8080-exec-26] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:22:21.558 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:22:21.559 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:22:21.559 INFO [http-nio-8080-exec-26] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:22:21.559 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:22:21.559 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:22:21.559 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile console.log("Cactus")
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.Tester.test node
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:22:21.560 INFO [http-nio-8080-exec-26] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:22:37.429 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost console.log("Cactus")
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:22:37.430 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:22:37.445 INFO [http-nio-8080-exec-24] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:22:37.448 INFO [http-nio-8080-exec-24] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:22:37.448 INFO [http-nio-8080-exec-24] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:22:37.448 INFO [http-nio-8080-exec-24] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:22:37.448 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.writeFile console.log("Cactus")
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.writeFile Error writing code to the file in runner/Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js (No such file or directory)
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.Tester.test node
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.Tester.test Error testing codeCannot run program "node": /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/log.txt (No such file or directory)
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:22:37.449 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost tests are not passed
+30-Apr-2024 10:22:37.450 INFO [http-nio-8080-exec-24] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:23:55.495 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+30-Apr-2024 10:23:55.500 WARNING [http-nio-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 10:23:55.509 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+30-Apr-2024 10:23:55.678 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 10:23:55.679 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [170] ms
+30-Apr-2024 10:24:02.480 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:24:02.481 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:24:02.481 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:24:02.481 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:24:02.492 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost console.log("Cactus")
+30-Apr-2024 10:24:02.492 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost js
+30-Apr-2024 10:24:02.492 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:24:02.493 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost Question's id is 1
+30-Apr-2024 10:24:02.554 INFO [http-nio-8080-exec-22] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:24:02.562 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:24:02.562 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases null
+30-Apr-2024 10:24:02.562 INFO [http-nio-8080-exec-22] server.database.TestCasesDAO.addTestCases Cactus
+30-Apr-2024 10:24:02.563 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:24:02.564 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:24:02.564 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.writeFile console.log("Cactus")
+30-Apr-2024 10:24:02.564 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+30-Apr-2024 10:24:02.565 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:24:02.565 INFO [http-nio-8080-exec-22] server.runner.Tester.test node
+30-Apr-2024 10:24:02.565 INFO [http-nio-8080-exec-22] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:24:02.568 INFO [http-nio-8080-exec-22] server.runner.Tester.test process started in tester
+30-Apr-2024 10:24:02.568 INFO [Thread-10] server.runner.Tester.lambda$writeInput$0 null
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.readOutput Cactus
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.readOutput this is line
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.readOutput read the output
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.test Test case: 
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.test Cactus
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.test Output of code: 
+30-Apr-2024 10:24:02.603 INFO [http-nio-8080-exec-22] server.runner.Tester.test Cactus
+30-Apr-2024 10:24:02.604 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.js
+30-Apr-2024 10:24:02.604 INFO [http-nio-8080-exec-22] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:24:02.604 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost tests are passed
+30-Apr-2024 10:24:02.604 INFO [http-nio-8080-exec-22] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 10:24:13.976 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost New Request.
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost Started reading request.
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost Empty
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost py
+30-Apr-2024 10:24:13.977 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost Nurtai
+30-Apr-2024 10:24:13.978 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost Question's id is 4
+30-Apr-2024 10:24:13.986 INFO [http-nio-8080-exec-27] server.connection.DBConnection.getConnection Connection to DB is established.
+30-Apr-2024 10:24:13.988 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:24:13.988 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 1 2
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 3
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 7 8
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 15
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases Test cases: 
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 45 56
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.database.TestCasesDAO.addTestCases 101
+30-Apr-2024 10:24:13.989 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost got testcases for runservlet
+30-Apr-2024 10:24:13.992 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost started running running in runner
+30-Apr-2024 10:24:13.992 INFO [http-nio-8080-exec-27] server.runner.RunnerSystem.writeFile input_line = input().strip().split()
+a = int(input_line[0])
+b = int(input_line[1])
+
+print(a + b)
+30-Apr-2024 10:24:13.993 INFO [http-nio-8080-exec-27] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+30-Apr-2024 10:24:13.993 INFO [http-nio-8080-exec-27] server.runner.RunnerSystem.compile compiled in runner
+30-Apr-2024 10:24:13.993 INFO [http-nio-8080-exec-27] server.runner.Tester.test python3
+30-Apr-2024 10:24:13.993 INFO [http-nio-8080-exec-27] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:24:14.002 INFO [http-nio-8080-exec-27] server.runner.Tester.test process started in tester
+30-Apr-2024 10:24:14.003 INFO [Thread-11] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 10:24:14.003 INFO [Thread-11] server.runner.Tester.lambda$writeInput$0 1 2
+30-Apr-2024 10:24:14.003 INFO [Thread-11] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput 3
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput this is line
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput read the output
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test Test case: 
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test 3
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test Output of code: 
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test 3
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test python3
+30-Apr-2024 10:24:14.055 INFO [http-nio-8080-exec-27] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:24:14.057 INFO [http-nio-8080-exec-27] server.runner.Tester.test process started in tester
+30-Apr-2024 10:24:14.057 INFO [Thread-12] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 10:24:14.058 INFO [Thread-12] server.runner.Tester.lambda$writeInput$0 7 8
+30-Apr-2024 10:24:14.058 INFO [Thread-12] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 10:24:14.071 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput 15
+30-Apr-2024 10:24:14.071 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput this is line
+30-Apr-2024 10:24:14.071 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput read the output
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test Test case: 
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test 15
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test Output of code: 
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test 15
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test python3
+30-Apr-2024 10:24:14.072 INFO [http-nio-8080-exec-27] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:24:14.073 INFO [http-nio-8080-exec-27] server.runner.Tester.test process started in tester
+30-Apr-2024 10:24:14.073 INFO [Thread-13] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 10:24:14.073 INFO [Thread-13] server.runner.Tester.lambda$writeInput$0 45 56
+30-Apr-2024 10:24:14.073 INFO [Thread-13] server.runner.Tester.lambda$writeInput$0 wrote input in tester
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput 101
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput this is line
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.readOutput read the output
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.test Test case: 
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.test 101
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.test Output of code: 
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.Tester.test 101
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/sandbox/src/main/java/server/runner/tests/Nurtai.py
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost tests are passed
+30-Apr-2024 10:24:14.086 INFO [http-nio-8080-exec-27] server.servlets.RunTestServlet.doPost sent the results from runservlet
+30-Apr-2024 14:46:59.808 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/conf/tomcat-users.xml]
+30-Apr-2024 14:46:59.819 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+30-Apr-2024 14:47:00.332 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+30-Apr-2024 14:47:00.362 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+30-Apr-2024 14:47:00.382 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+30-Apr-2024 14:47:00.384 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [codecraft]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft/WEB-INF/lib/tomcat-jaspic-api-10.1.19.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:249)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1077)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1654)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.nio.file.NoSuchFileException: /Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft/WEB-INF/lib/tomcat-jaspic-api-10.1.19.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+30-Apr-2024 14:47:00.399 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/servlets-1.0-SNAPSHOT]
+30-Apr-2024 14:47:00.401 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [servlets-1.0-SNAPSHOT]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+30-Apr-2024 14:47:00.907 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+30-Apr-2024 14:47:00.916 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:249)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1077)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1654)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.nio.file.NoSuchFileException: /Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1853)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 30 more
+30-Apr-2024 14:47:01.425 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+30-Apr-2024 14:47:01.429 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+30-Apr-2024 14:47:01.939 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+30-Apr-2024 14:47:01.945 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+30-Apr-2024 14:47:02.455 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+30-Apr-2024 14:47:02.459 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1599)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1537)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:406)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5146)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1483)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1665)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+30-Apr-2024 14:50:43.846 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 14:50:43.846 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 14:50:43.848 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 14:50:43.849 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 14:50:43.860 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 14:50:49.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.4.1
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2
+30-Apr-2024 14:50:49.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+30-Apr-2024 14:50:49.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat
+30-Apr-2024 14:50:49.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat
+30-Apr-2024 14:50:49.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/conf/logging.properties
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat
+30-Apr-2024 14:50:49.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/temp
+30-Apr-2024 14:50:49.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tolymbeknurtai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+30-Apr-2024 14:50:49.719 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 14:50:49.734 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [292] milliseconds
+30-Apr-2024 14:50:49.758 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 14:50:49.758 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+30-Apr-2024 14:50:49.770 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/servlets-1.0-SNAPSHOT.war]
+30-Apr-2024 14:50:49.924 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/servlets-1.0-SNAPSHOT.war] has finished in [153] ms
+30-Apr-2024 14:50:49.924 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/codecraft.war]
+30-Apr-2024 14:50:50.128 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 14:50:50.130 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/codecraft.war] has finished in [206] ms
+30-Apr-2024 14:50:50.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/docs]
+30-Apr-2024 14:50:50.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/docs] has finished in [11] ms
+30-Apr-2024 14:50:50.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/manager]
+30-Apr-2024 14:50:50.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/manager] has finished in [15] ms
+30-Apr-2024 14:50:50.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/examples]
+30-Apr-2024 14:50:50.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/examples] has finished in [95] ms
+30-Apr-2024 14:50:50.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/ROOT]
+30-Apr-2024 14:50:50.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/ROOT] has finished in [8] ms
+30-Apr-2024 14:50:50.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/host-manager]
+30-Apr-2024 14:50:50.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/host-manager] has finished in [10] ms
+30-Apr-2024 14:50:50.272 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 14:50:50.278 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [543] milliseconds
+30-Apr-2024 14:50:56.307 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+30-Apr-2024 14:50:56.318 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/codecraft.war]
+30-Apr-2024 14:50:56.474 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 14:50:56.475 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/projects/sandbox/tomcat/webapps/codecraft.war] has finished in [157] ms
+30-Apr-2024 15:55:41.630 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:55:41.694 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 15:55:41.822 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:55:41.873 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

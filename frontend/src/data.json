@@ -1,0 +1,165 @@
+{
+    "questions": [
+        { 
+            "difficultyLevel": "easy",
+            "id": 0,
+            "title": "Hello, world!",
+            "content": "Welcome to CodeCraft! Make a program that prints to the screen the output below.",
+            "input": "flksadjlfkjals;djfl;ajefoiroiewuqoipjrlkfjslakjflkasjldfjlskdjflkjsdalkjklfdsjjlkajsdfj",
+            "output": "slkdjflskdjflskjalsj231253132"
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 1,
+            "title": "Goodbye!",
+            "content": "Welcome to CodeCraft! Make a program that prints to the screen the output below.",
+            "input": "flksadjlfkjals;djfl;ajefoiroiewuqoipjrlkfjslakjflkasjldfjlskdjflkjsdalkjklfdsjjlkajsdfj",
+            "output": "slkdjflskdjflskjalsj231253132"
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 2,
+            "title": "hihihihihihihi!",
+            "content": "Welcome to CodeCraft! Make a program that prints to the screen the output below.",
+            "input": "flksadjlfkjals;djfl;ajefoiroiewuqoipjrlkfjslakjflkasjldfjlskdjflkjsdalkjklfdsjjlkajsdfj",
+            "output": "slkdjflskdjflskjalsj231253132"
+        },
+        {
+            "difficultyLevel": "easy",
+            "id": 3,
+            "title": "FizzBuzz",
+            "content": "Write a program that prints the numbers from 1 to n. But for multiples of three, print 'Fizz' instead of the number, and for the multiples of five, print 'Buzz'. For numbers that are multiples of both three and five, print 'FizzBuzz'.",
+            "input": "An integer n (1 <= n <= 100)",
+            "output": "Output n lines, each containing one number or 'Fizz', 'Buzz', or 'FizzBuzz' as per the rules described above."
+        },
+        {
+            "difficultyLevel": "easy",
+            "id": 4,
+            "title": "Palindrome",
+            "content": "Write a program to determine if a given string is a palindrome.",
+            "input": "A string consisting of lowercase and/or uppercase English letters.",
+            "output": "Output 'true' if the input string is a palindrome, and 'false' otherwise."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 5,
+            "title": "Factorial",
+            "content": "Write a program to calculate the factorial of a non-negative integer n.",
+            "input": "A non-negative integer n (0 <= n <= 10).",
+            "output": "Output the factorial of n."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 6,
+            "title": "Anagram",
+            "content": "Write a program to determine if two strings are anagrams of each other.",
+            "input": "Two strings consisting of lowercase and/or uppercase English letters.",
+            "output": "Output 'true' if the two strings are anagrams, and 'false' otherwise."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 7,
+            "title": "Reverse Integer",
+            "content": "Write a program to reverse an integer.",
+            "input": "A signed 32-bit integer x.",
+            "output": "Return the reversed integer."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 8,
+            "title": "Valid Parentheses",
+            "content": "Write a program to determine if a string containing just the characters '(', ')', '{', '}', '[' and ']' is valid.",
+            "input": "A string containing just the characters '(', ')', '{', '}', '[' and ']'.",
+            "output": "Output 'true' if the input string is valid, and 'false' otherwise."
+        },
+        {
+            "difficultyLevel": "hard",
+            "id": 9,
+            "title": "Longest Common Subsequence",
+            "content": "Write a program to find the length of the longest common subsequence of two given strings.",
+            "input": "Two strings s1 and s2.",
+            "output": "Output the length of the longest common subsequence."
+        },
+        {
+            "difficultyLevel": "hard",
+            "id": 10,
+            "title": "Maximum Subarray",
+            "content": "Write a program to find the contiguous subarray within an array that has the largest sum.",
+            "input": "An array of integers.",
+            "output": "Output the sum of the contiguous subarray."
+        },
+        {
+            "difficultyLevel": "easy",
+            "id": 11,
+            "title": "Two Sum",
+            "content": "Write a program to find two numbers such that they add up to a specific target.",
+            "input": "An array of integers and an integer target.",
+            "output": "Output the indices of the two numbers such that they add up to the target."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 12,
+            "title": "Merge Two Sorted Lists",
+            "content": "Write a program to merge two sorted linked lists and return it as a new sorted list.",
+            "input": "Two sorted linked lists.",
+            "output": "Output the merged sorted linked list."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 13,
+            "title": "Rotate Array",
+            "content": "Write a program to rotate an array to the right by k steps, where k is non-negative.",
+            "input": "An array of integers and an integer k.",
+            "output": "Output the rotated array."
+        },
+        {
+            "difficultyLevel": "easy",
+            "id": 14,
+            "title": "Valid Palindrome",
+            "content": "Write a program to determine if a given string is a valid palindrome.",
+            "input": "A string consisting of alphanumeric characters.",
+            "output": "Output 'true' if the input string is a valid palindrome, and 'false' otherwise."
+        },
+        {
+            "difficultyLevel": "hard",
+            "id": 15,
+            "title": "Jump Game",
+            "content": "Write a program to determine if you can reach the last index of an array from the first index.",
+            "input": "An array of non-negative integers.",
+            "output": "Output 'true' if you can reach the last index, and 'false' otherwise."
+        },
+        {
+            "difficultyLevel": "hard",
+            "id": 16,
+            "title": "Container With Most Water",
+            "content": "Write a program to find the maximum area of a container formed by vertical lines given an array of heights where the width of the container is one unit.",
+            "input": "An array of non-negative integers representing the heights of the lines.",
+            "output": "Output the maximum area of the container."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 17,
+            "title": "3Sum",
+            "content": "Write a program to find all unique triplets in the array which gives the sum of zero.",
+            "input": "An array of integers.",
+            "output": "Output all unique triplets."
+        },
+        {
+            "difficultyLevel": "easy",
+            "id": 18,
+            "title": "Remove Duplicates from Sorted Array",
+            "content": "Write a program to remove duplicates from a sorted array in-place such that each element appears only once and returns the new length.",
+            "input": "A sorted array of integers.",
+            "output": "Output the length of the array after removing duplicates and the modified array."
+        },
+        {
+            "difficultyLevel": "middle",
+            "id": 19,
+            "title": "Subsets",
+            "content": "Write a program to generate all possible subsets of a set of distinct integers.",
+            "input": "A set of distinct integers.",
+            "output": "Output all possible subsets."
+        }
+    ]
+}
+    

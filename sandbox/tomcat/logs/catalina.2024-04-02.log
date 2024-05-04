@@ -1,0 +1,162 @@
+02-Apr-2024 10:59:25.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2
+02-Apr-2024 10:59:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+02-Apr-2024 10:59:25.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+02-Apr-2024 10:59:25.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/conf/logging.properties
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Apr-2024 10:59:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Apr-2024 10:59:25.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Apr-2024 10:59:25.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+02-Apr-2024 10:59:25.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19
+02-Apr-2024 10:59:25.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/temp
+02-Apr-2024 10:59:25.241 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tolymbeknurtai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Apr-2024 10:59:25.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Apr-2024 10:59:25.414 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1017)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1282)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1295)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+02-Apr-2024 10:59:25.414 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [289] milliseconds
+02-Apr-2024 10:59:25.434 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Apr-2024 10:59:25.434 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+02-Apr-2024 10:59:25.448 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war]
+02-Apr-2024 10:59:25.601 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war] has finished in [152] ms
+02-Apr-2024 10:59:25.602 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+02-Apr-2024 10:59:25.822 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Apr-2024 10:59:25.825 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [223] ms
+02-Apr-2024 10:59:25.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs]
+02-Apr-2024 10:59:25.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/docs] has finished in [9] ms
+02-Apr-2024 10:59:25.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager]
+02-Apr-2024 10:59:25.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/manager] has finished in [12] ms
+02-Apr-2024 10:59:25.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples]
+02-Apr-2024 10:59:25.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/examples] has finished in [86] ms
+02-Apr-2024 10:59:25.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT]
+02-Apr-2024 10:59:25.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/ROOT] has finished in [7] ms
+02-Apr-2024 10:59:25.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager]
+02-Apr-2024 10:59:25.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/host-manager] has finished in [8] ms
+02-Apr-2024 10:59:25.950 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [535] milliseconds
+02-Apr-2024 10:59:25.953 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+02-Apr-2024 10:59:25.953 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Apr-2024 10:59:25.953 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Apr-2024 10:59:25.965 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Apr-2024 10:59:25.965 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Apr-2024 11:03:36.661 INFO [http-nio-8080-exec-143] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+02-Apr-2024 11:03:36.671 WARNING [http-nio-8080-exec-143] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [codecraft] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Apr-2024 11:03:36.684 INFO [http-nio-8080-exec-143] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+02-Apr-2024 11:03:36.867 INFO [http-nio-8080-exec-143] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Apr-2024 11:03:36.869 INFO [http-nio-8080-exec-143] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [185] ms
+02-Apr-2024 11:08:16.779 INFO [http-nio-8080-exec-147] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:16.787 INFO [http-nio-8080-exec-147] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:16.789 INFO [http-nio-8080-exec-147] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:25.660 INFO [http-nio-8080-exec-148] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:25.663 INFO [http-nio-8080-exec-148] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:25.664 INFO [http-nio-8080-exec-148] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:29.150 INFO [http-nio-8080-exec-149] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:29.153 INFO [http-nio-8080-exec-149] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:29.154 INFO [http-nio-8080-exec-149] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:29.960 INFO [http-nio-8080-exec-138] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:29.962 INFO [http-nio-8080-exec-138] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:29.963 INFO [http-nio-8080-exec-138] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:33.653 INFO [http-nio-8080-exec-139] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:33.655 INFO [http-nio-8080-exec-139] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:33.656 INFO [http-nio-8080-exec-139] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:37.116 INFO [http-nio-8080-exec-145] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:37.118 INFO [http-nio-8080-exec-145] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:37.119 INFO [http-nio-8080-exec-145] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:39.818 INFO [http-nio-8080-exec-146] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:39.819 INFO [http-nio-8080-exec-146] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:39.821 INFO [http-nio-8080-exec-146] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:41.327 INFO [http-nio-8080-exec-147] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:41.329 INFO [http-nio-8080-exec-147] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:41.330 INFO [http-nio-8080-exec-147] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:44.707 INFO [http-nio-8080-exec-149] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:44.709 INFO [http-nio-8080-exec-149] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:44.709 INFO [http-nio-8080-exec-149] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:51.161 INFO [http-nio-8080-exec-150] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:51.163 INFO [http-nio-8080-exec-150] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:51.164 INFO [http-nio-8080-exec-150] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:08:54.229 INFO [http-nio-8080-exec-151] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:08:54.230 INFO [http-nio-8080-exec-151] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:08:54.231 INFO [http-nio-8080-exec-151] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:10:23.843 INFO [http-nio-8080-exec-153] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:10:23.846 INFO [http-nio-8080-exec-153] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:10:23.847 INFO [http-nio-8080-exec-153] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:10:24.966 INFO [http-nio-8080-exec-145] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:10:24.968 INFO [http-nio-8080-exec-145] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:10:24.969 INFO [http-nio-8080-exec-145] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:11:13.812 INFO [http-nio-8080-exec-147] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:11:13.815 INFO [http-nio-8080-exec-147] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:11:13.816 INFO [http-nio-8080-exec-147] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:11:14.627 INFO [http-nio-8080-exec-148] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:11:14.629 INFO [http-nio-8080-exec-148] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:11:14.630 INFO [http-nio-8080-exec-148] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:11:57.270 INFO [http-nio-8080-exec-150] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:11:57.272 INFO [http-nio-8080-exec-150] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:11:57.272 INFO [http-nio-8080-exec-150] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:11:58.758 INFO [http-nio-8080-exec-151] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:11:58.761 INFO [http-nio-8080-exec-151] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:11:58.761 INFO [http-nio-8080-exec-151] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:12:05.761 INFO [http-nio-8080-exec-152] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:12:05.763 INFO [http-nio-8080-exec-152] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:12:05.764 INFO [http-nio-8080-exec-152] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:12:26.346 INFO [http-nio-8080-exec-153] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:12:26.349 INFO [http-nio-8080-exec-153] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:12:26.350 INFO [http-nio-8080-exec-153] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:12:29.170 INFO [http-nio-8080-exec-145] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:12:29.173 INFO [http-nio-8080-exec-145] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:12:29.174 INFO [http-nio-8080-exec-145] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:14:12.288 INFO [http-nio-8080-exec-148] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:14:12.292 INFO [http-nio-8080-exec-148] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:14:12.293 INFO [http-nio-8080-exec-148] server.servlets.QuestionsServlet.doGet Sent questions.
+02-Apr-2024 11:14:13.104 INFO [http-nio-8080-exec-149] server.connection.DBConnection.getConnection Connection to DB is established.
+02-Apr-2024 11:14:13.107 INFO [http-nio-8080-exec-149] server.daos.QuestionsDAO.getQuestions Got questions from DB.
+02-Apr-2024 11:14:13.108 INFO [http-nio-8080-exec-149] server.servlets.QuestionsServlet.doGet Sent questions.

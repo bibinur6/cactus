@@ -1,0 +1,142 @@
+29-Apr-2024 15:09:20.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.19
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 19:36:50 UTC
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.19.0
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.4.1
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tolymbeknurtai/package/apache-tomcat-10.1.19
+29-Apr-2024 15:09:20.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tolymbeknurtai/package/apache-tomcat-10.1.19
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/conf/logging.properties
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tolymbeknurtai/package/apache-tomcat-10.1.19
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tolymbeknurtai/package/apache-tomcat-10.1.19
+29-Apr-2024 15:09:20.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/temp
+29-Apr-2024 15:09:20.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tolymbeknurtai/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+29-Apr-2024 15:09:20.876 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Apr-2024 15:09:20.890 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [271] milliseconds
+29-Apr-2024 15:09:20.908 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Apr-2024 15:09:20.908 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.19]
+29-Apr-2024 15:09:20.922 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war]
+29-Apr-2024 15:09:21.061 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/servlets-1.0-SNAPSHOT.war] has finished in [139] ms
+29-Apr-2024 15:09:21.062 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+29-Apr-2024 15:09:21.261 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Apr-2024 15:09:21.263 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [201] ms
+29-Apr-2024 15:09:21.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/docs]
+29-Apr-2024 15:09:21.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/docs] has finished in [9] ms
+29-Apr-2024 15:09:21.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/manager]
+29-Apr-2024 15:09:21.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/manager] has finished in [11] ms
+29-Apr-2024 15:09:21.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/examples]
+29-Apr-2024 15:09:21.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/examples] has finished in [85] ms
+29-Apr-2024 15:09:21.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/ROOT]
+29-Apr-2024 15:09:21.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/ROOT] has finished in [6] ms
+29-Apr-2024 15:09:21.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/host-manager]
+29-Apr-2024 15:09:21.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/host-manager] has finished in [7] ms
+29-Apr-2024 15:09:21.387 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Apr-2024 15:09:21.391 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [500] milliseconds
+29-Apr-2024 15:09:44.084 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/codecraft]
+29-Apr-2024 15:09:44.100 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war]
+29-Apr-2024 15:09:44.287 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Apr-2024 15:09:44.288 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/tolymbeknurtai/package/apache-tomcat-10.1.19/webapps/codecraft.war] has finished in [188] ms
+29-Apr-2024 15:10:01.190 INFO [http-nio-8080-exec-10] server.connection.DBConnection.getConnection Connection to DB is established.
+29-Apr-2024 15:10:01.198 INFO [http-nio-8080-exec-10] server.database.QuestionsDAO.getQuestions Got questions from DB.
+29-Apr-2024 15:10:01.199 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 1 2
+29-Apr-2024 15:10:01.199 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 3 4/1 4
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 1 2/100 200
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 4
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet null
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 2/2555/2000
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 2/2/3
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 2 2
+29-Apr-2024 15:10:01.200 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+29-Apr-2024 15:10:01.201 INFO [http-nio-8080-exec-10] server.servlets.QuestionsServlet.doGet Sent questions.
+29-Apr-2024 17:36:07.015 INFO [http-nio-8080-exec-11] server.connection.DBConnection.getConnection Connection to DB is established.
+29-Apr-2024 17:36:07.021 INFO [http-nio-8080-exec-11] server.database.QuestionsDAO.getQuestions Got questions from DB.
+29-Apr-2024 17:36:07.021 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 1 2
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 3 4/1 4
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 1 2/100 200
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 4
+29-Apr-2024 17:36:07.022 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet null
+29-Apr-2024 17:36:07.023 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 2/2555/2000
+29-Apr-2024 17:36:07.023 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 2/2/3
+29-Apr-2024 17:36:07.023 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+29-Apr-2024 17:36:07.023 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 2 2
+29-Apr-2024 17:36:07.023 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+29-Apr-2024 17:36:07.024 INFO [http-nio-8080-exec-11] server.servlets.QuestionsServlet.doGet Sent questions.
+29-Apr-2024 17:36:09.055 INFO [http-nio-8080-exec-12] server.connection.DBConnection.getConnection Connection to DB is established.
+29-Apr-2024 17:36:09.057 INFO [http-nio-8080-exec-12] server.database.QuestionsDAO.getQuestions Got questions from DB.
+29-Apr-2024 17:36:09.058 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 1 2
+29-Apr-2024 17:36:09.058 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 3 4/1 4
+29-Apr-2024 17:36:09.061 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 1 2/100 200
+29-Apr-2024 17:36:09.061 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+29-Apr-2024 17:36:09.061 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+29-Apr-2024 17:36:09.061 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 4
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet null
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 2/2555/2000
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 2/2/3
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 2 2
+29-Apr-2024 17:36:09.062 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+29-Apr-2024 17:36:09.063 INFO [http-nio-8080-exec-12] server.servlets.QuestionsServlet.doGet Sent questions.
+29-Apr-2024 17:39:07.687 INFO [http-nio-8080-exec-14] server.connection.DBConnection.getConnection Connection to DB is established.
+29-Apr-2024 17:39:07.689 INFO [http-nio-8080-exec-14] server.database.QuestionsDAO.getQuestions Got questions from DB.
+29-Apr-2024 17:39:07.690 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 1 2
+29-Apr-2024 17:39:07.690 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 3 4/1 4
+29-Apr-2024 17:39:07.690 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 1 2/100 200
+29-Apr-2024 17:39:07.690 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 4/4 1 1/2 10 7/8 5 4/9 7 0
+29-Apr-2024 17:39:07.690 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 3/10 15/6 8/4 8
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 4
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet null
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 2/2555/2000
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 2/2/3
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 2/2 2/5 6
+29-Apr-2024 17:39:07.691 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 2 2
+29-Apr-2024 17:39:07.692 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet 4/3/2/4/100000
+29-Apr-2024 17:39:07.694 INFO [http-nio-8080-exec-14] server.servlets.QuestionsServlet.doGet Sent questions.
+29-Apr-2024 18:00:43.550 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost New Request.
+29-Apr-2024 18:00:43.552 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost Started reading request.
+29-Apr-2024 18:00:43.554 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost Started reading request.
+29-Apr-2024 18:00:43.554 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost Empty
+29-Apr-2024 18:00:43.576 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost console.log("Cactus")
+29-Apr-2024 18:00:43.576 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost js
+29-Apr-2024 18:00:43.576 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost Nurtai
+29-Apr-2024 18:00:43.577 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost Question's id is 1
+29-Apr-2024 18:00:43.585 INFO [http-nio-8080-exec-16] server.connection.DBConnection.getConnection Connection to DB is established.
+29-Apr-2024 18:00:43.591 INFO [http-nio-8080-exec-16] server.database.TestCasesDAO.addTestCases Test cases: 
+29-Apr-2024 18:00:43.592 INFO [http-nio-8080-exec-16] server.database.TestCasesDAO.addTestCases null
+29-Apr-2024 18:00:43.592 INFO [http-nio-8080-exec-16] server.database.TestCasesDAO.addTestCases Cactus
+29-Apr-2024 18:00:43.592 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost got testcases for runservlet
+29-Apr-2024 18:00:43.596 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost started running running in runner
+29-Apr-2024 18:00:43.596 INFO [http-nio-8080-exec-16] server.runner.RunnerSystem.writeFile console.log("Cactus")
+29-Apr-2024 18:00:43.598 INFO [http-nio-8080-exec-16] server.runner.RunnerSystem.writeFile Wrote code to the file in runner
+29-Apr-2024 18:00:43.598 INFO [http-nio-8080-exec-16] server.runner.RunnerSystem.compile compiled in runner
+29-Apr-2024 18:00:43.598 INFO [http-nio-8080-exec-16] server.runner.Tester.test node
+29-Apr-2024 18:00:43.599 INFO [http-nio-8080-exec-16] server.runner.Tester.test /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+29-Apr-2024 18:00:43.616 INFO [http-nio-8080-exec-16] server.runner.Tester.test process started in tester
+29-Apr-2024 18:00:43.617 INFO [Thread-2] server.runner.Tester.lambda$writeInput$0 null
+29-Apr-2024 18:00:43.669 INFO [http-nio-8080-exec-16] server.runner.Tester.readOutput Cactus
+29-Apr-2024 18:00:43.669 INFO [http-nio-8080-exec-16] server.runner.Tester.readOutput this is line
+29-Apr-2024 18:00:43.669 INFO [http-nio-8080-exec-16] server.runner.Tester.readOutput read the output
+29-Apr-2024 18:00:43.669 INFO [http-nio-8080-exec-16] server.runner.Tester.test Test case: 
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.runner.Tester.test Cactus
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.runner.Tester.test Output of code: 
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.runner.Tester.test Cactus
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.runner.RunnerSystem.cleanUp Error removing file: /Users/tolymbeknurtai/Desktop/projects/cactus/src/main/java/server/runner/tests/Nurtai.js
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.runner.RunnerSystem.cleanUp cleaned up the files in runner
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost tests are passed
+29-Apr-2024 18:00:43.670 INFO [http-nio-8080-exec-16] server.servlets.RunTestServlet.doPost sent the results from runservlet

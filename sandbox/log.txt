@@ -1,0 +1,12 @@
+2024-04-10 08:12:25.110 +05 [12613] FATAL:  lock file "postmaster.pid" already exists
+2024-04-10 08:12:25.110 +05 [12613] HINT:  Is another postmaster (PID 5590) running in data directory "/opt/homebrew/var/postgresql@15"?
+2024-04-10 08:15:21.296 +05 [12873] FATAL:  lock file "postmaster.pid" already exists
+2024-04-10 08:15:21.296 +05 [12873] HINT:  Is another postmaster (PID 5590) running in data directory "/opt/homebrew/var/postgresql@15"?
+2024-04-10 19:52:49.920 +05 [1936] LOG:  starting PostgreSQL 15.6 (Homebrew) on aarch64-apple-darwin23.2.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2024-04-10 19:52:49.922 +05 [1936] LOG:  listening on IPv6 address "::1", port 5432
+2024-04-10 19:52:49.922 +05 [1936] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-04-10 19:52:49.922 +05 [1936] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-04-10 19:52:49.929 +05 [1939] LOG:  database system was shut down at 2024-04-10 10:59:39 +05
+2024-04-10 19:52:49.934 +05 [1936] LOG:  database system is ready to accept connections
+2024-04-10 19:57:49.916 +05 [1937] LOG:  checkpoint starting: time
+2024-04-10 19:57:50.023 +05 [1937] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.107 s; sync files=3, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB

@@ -1,0 +1,13 @@
+127.0.0.1 - admin [26/Mar/2024:10:59:59 +0600] "PUT /manager/text/deploy?path=%2Fcodecraft&update=true HTTP/1.1" 200 66
+192.168.50.99 - - [26/Mar/2024:11:05:31 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:05:42 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:06:09 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:06:47 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:06:49 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:07:49 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:08:16 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:08:19 +0600] "POST /codecraft/api/run HTTP/1.1" 200 15
+192.168.50.99 - - [26/Mar/2024:11:13:49 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:14:11 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+192.168.50.99 - - [26/Mar/2024:11:14:17 +0600] "GET /codecraft/api/questions HTTP/1.1" 200 471
+127.0.0.1 - admin [26/Mar/2024:21:59:07 +0600] "PUT /manager/text/deploy?path=%2Fcodecraft&update=true HTTP/1.1" 200 66
