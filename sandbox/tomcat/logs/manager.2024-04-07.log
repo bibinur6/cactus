@@ -1,8 +1,0 @@
-07-Apr-2024 00:05:38.792 INFO [http-nio-8080-exec-334] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/codecraft'
-07-Apr-2024 00:05:38.792 INFO [http-nio-8080-exec-334] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war.tmp
-07-Apr-2024 00:17:57.567 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
-07-Apr-2024 00:17:57.567 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
-07-Apr-2024 00:17:57.570 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/codecraft'
-07-Apr-2024 00:17:57.570 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war.tmp
-07-Apr-2024 00:23:55.275 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/codecraft'
-07-Apr-2024 00:23:55.275 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/tolymbeknurtai/Desktop/package/apache-tomcat-10.1.19/webapps/codecraft.war.tmp
