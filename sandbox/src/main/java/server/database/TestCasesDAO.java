@@ -11,12 +11,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-public class TestCasesDAO {
+public class TestCasesDAO extends DBConnection {
     Logger logger = Logger.getLogger("sample");
-    DBConnection dbConnection;
 
-    public TestCasesDAO(DBConnection dbConnection) {
-        this.dbConnection = dbConnection;
+    public TestCasesDAO() {
     }
 
     public ArrayList<TestCases> getTestCasesByQuestionId(int question_id) throws SQLException {
@@ -25,7 +23,7 @@ public class TestCasesDAO {
 
         ResultSet results = null;
         try (
-                Connection connection = dbConnection.getConnection();
+                Connection connection = getConnection();
                 PreparedStatement ps = connection.prepareStatement(sql)
         ) {
             ps.setInt(1, question_id);

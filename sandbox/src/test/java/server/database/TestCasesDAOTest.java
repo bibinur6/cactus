@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 public class TestCasesDAOTest {
     @Test
     public void testGetQuestions() {
-        TestCasesDAO testCasesDAO = new TestCasesDAO(new DBConnection());
+        TestCasesDAO testCasesDAO = new TestCasesDAO();
         ArrayList<TestCases> testCases;
         try {
              testCases = testCasesDAO.getTestCasesByQuestionId(1);

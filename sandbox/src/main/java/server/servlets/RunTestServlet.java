@@ -51,7 +51,7 @@ public class RunTestServlet extends HttpServlet {
 
         JSONObject jsonObject = new JSONObject(stringBuilder.toString());
         Runner runnerModel = new Runner();
-        TestCasesDAO testCasesDAO = new TestCasesDAO(new DBConnection());
+        TestCasesDAO testCasesDAO = new TestCasesDAO();
 
         runnerModel.code = jsonObject.getString("code");
         runnerModel.language = jsonObject.getString("language");
